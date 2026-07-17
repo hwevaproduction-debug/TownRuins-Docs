@@ -12,7 +12,10 @@ aliases:
 
 # Documentation Hub
 
-This folder is the technical documentation hub for the Creapy repository. The canonical technical set now lives under the structured folders in this directory, while the business-facing handover pack lives in [client-handover](client-handover/).
+> **Shared repo:** this tree is [TownRuins-Docs](https://github.com/hwevaproduction-debug/TownRuins-Docs), mounted as Creapy `docs/` and TownRuins-Operations `content/`.  
+> **How to edit and publish:** see [CONTRIBUTING.md](CONTRIBUTING.md) (commit in this repo first, then bump both parent gitlinks).
+
+This folder is the technical documentation hub for the Town Ruins / Creapy platform. The canonical technical set lives under the structured folders in this directory, while the business-facing handover pack lives in [client-handover](client-handover/).
 
 ## Canonical domains
 
