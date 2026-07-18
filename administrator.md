@@ -40,7 +40,7 @@ aliases:
 <span class="tr-surface__title">Moderation Guide</span>
 <span class="tr-surface__summary">Content review, dispute handling, and moderation policies.</span>
 </a>
-<a class="tr-surface tr-surface--md" href="./deployment/post_deployment_checklist">
+<a class="tr-surface tr-surface--md" href="./operations/post_deployment_checklist">
 <span class="tr-surface__title">Post-Deployment Checklist</span>
 <span class="tr-surface__summary">Verification steps after every deployment.</span>
 </a>

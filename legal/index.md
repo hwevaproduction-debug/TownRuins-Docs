@@ -16,8 +16,12 @@ aliases:
 
 # Legal Documentation
 
-<p>Legal documentation index for the Town Ruins platform, including terms of use, privacy policy, refund policy, and landlord agreements.</p>
+<p>Portal <strong>index only</strong> for legal materials. Full contract text is generally <strong>not mirrored</strong> in this Operations Portal.</p>
 
+</div>
+
+<div class="tr-dashboard-section" style="margin-top: 0.5rem;">
+<p><strong>Honesty for owners:</strong> Use this folder to find <em>where legal docs are referenced</em>. Canonical terms, privacy, refund, and agreements are maintained outside this portal (monorepo / live app). Do not treat these pages as the full legal body. Prefer in-app legal views at the product URL when available.</p>
 </div>
 
 <div class="tr-folder-nav">
@@ -31,7 +35,7 @@ Legal Index
 
 <div class="tr-dashboard-section" style="margin-top: 1.5rem;">
 <h3>Purpose</h3>
-<p>This folder is the documentation index for legal materials referenced by the frontend legal views and the repository-level docs. The canonical legal sources are maintained in the repository terms&all directory.</p>
+<p>This folder indexes legal materials referenced by the frontend legal views and repository-level docs. Links may point at monorepo paths that are not published as portal pages — those are source pointers, not 404s inside a multi-repo checkout.</p>
 </div>
 
 <div class="tr-dashboard-section">

@@ -66,7 +66,7 @@ aliases:
 <span class="tr-surface__title">Repository Guide</span>
 <span class="tr-surface__summary">Branching strategy, commit conventions, and pull request workflow.</span>
 </a>
-<a class="tr-surface tr-surface--md" href="./ui/ui_guidelines">
+<a class="tr-surface tr-surface--md" href="./standards/ui-guidelines">
 <span class="tr-surface__title">UI Guidelines</span>
 <span class="tr-surface__summary">Frontend design standards, component patterns, and accessibility rules.</span>
 </a>
@@ -92,7 +92,7 @@ aliases:
 <span class="tr-related-icon">&#128295;</span>
 <span>Troubleshooting</span>
 </a>
-<a class="tr-related-card" href="./testing/smoke_test_plan">
+<a class="tr-related-card" href="./operations/smoke_test_plan">
 <span class="tr-related-icon">&#128270;</span>
 <span>Smoke Test Plan</span>
 </a>

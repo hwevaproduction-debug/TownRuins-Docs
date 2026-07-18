@@ -1,3 +1,13 @@
+---
+title: Data Ownership
+description: Who owns which data and decisions on Town Ruins — owners, users, and developer boundaries.
+tags:
+  - owner
+  - owner-pack
+  - data-ownership
+  - hweva
+---
+
 # Data Ownership
 
 | Field | Value |
@@ -7,7 +17,7 @@
 | **Version** | 1.0 |
 | **Product** | [https://app.townruins.com](https://app.townruins.com) |
 | **Support** | [sandbox@townruins.com](mailto:sandbox@townruins.com) |
-| **Related** | [10 Roles and Permissions](10-Roles-and-Permissions.md) · [06 Feature Catalogue](06-Feature-Catalogue.md) · [14 Support and Warranty](14-Support-and-Warranty.md) |
+| **Related** | [10 Roles and Permissions](10-roles-and-permissions) · [06 Feature Catalogue](06-feature-catalogue) · [14 Support and Warranty](14-support-and-warranty) |
 
 ---
 
@@ -165,7 +175,7 @@ flowchart TB
 | Feature request / roadmap item | Owner product decision | Only if contracted as change work |
 | Routine moderation backlog | **Owner staff** | Never “because we prefer not to log in” |
 
-Support contact for engagement questions: [sandbox@townruins.com](mailto:sandbox@townruins.com). Response expectations follow the **full-time contract** — this pack does not invent SLA numbers. See [14 Support and Warranty](14-Support-and-Warranty.md) when published.
+Support contact for engagement questions: [sandbox@townruins.com](mailto:sandbox@townruins.com). Response expectations follow the **full-time contract** — this pack does not invent SLA numbers. See [14 Support and Warranty](14-support-and-warranty) when published.
 
 ---
 

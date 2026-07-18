@@ -21,7 +21,7 @@ aliases:
 
 <div class="tr-folder-nav">
 
-<a class="tr-folder-nav-item" href="./SMOKE_TEST_PLAN">
+<a class="tr-folder-nav-item" href="../operations/SMOKE_TEST_PLAN">
 <span class="tr-folder-icon">&#128270;</span>
 Smoke Test Plan
 </a>
@@ -45,6 +45,6 @@ Smoke Test Plan
 <div class="tr-dashboard-section">
 <h3>Frequently Accessed Pages</h3>
 <ul>
-<li><a href="./SMOKE_TEST_PLAN">Smoke Test Plan</a></li>
+<li><a href="../operations/SMOKE_TEST_PLAN">Smoke Test Plan</a></li>
 </ul>
 </div>

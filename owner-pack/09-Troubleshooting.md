@@ -1,3 +1,13 @@
+---
+title: Troubleshooting
+description: Diagnose and resolve frequent owner-facing issues on Town Ruins.
+tags:
+  - owner
+  - owner-pack
+  - troubleshooting
+  - hweva
+---
+
 # Troubleshooting
 
 | Field | Value |
@@ -7,7 +17,7 @@
 | **Version** | 1.0 |
 | **Product** | [https://app.townruins.com](https://app.townruins.com) |
 | **Support** | [sandbox@townruins.com](mailto:sandbox@townruins.com) |
-| **Related** | [08 FAQ](08-FAQ.md) · [03 User Manual](03-User-Manual.md) · [04 Administrator Guide](04-Administrator-Guide.md) · [11 Daily Operations](11-Daily-Operations.md) · [14 Support and Warranty](14-Support-and-Warranty.md) |
+| **Related** | [08 FAQ](08-faq) · [03 User Manual](03-user-manual) · [04 Administrator Guide](04-administrator-guide) · [11 Daily Operations](11-daily-operations) · [14 Support and Warranty](14-support-and-warranty) |
 
 ---
 
@@ -305,7 +315,7 @@ Do not confuse **TR Token** balances with **stay payment** status.
 
 **Checks**
 
-1. Confirm version **1.0** known limits in [06 Feature Catalogue](06-Feature-Catalogue.md).
+1. Confirm version **1.0** known limits in [06 Feature Catalogue](06-feature-catalogue).
 2. Use related surfaces: bookings, listings, reports, disputes — not a global user grid.
 3. For promo TR: no dedicated admin UI — use support/technical path under contract.
 
@@ -331,4 +341,4 @@ Email **[sandbox@townruins.com](mailto:sandbox@townruins.com)** when:
 
 Include: symptom, scope (one vs many), when it started, accounts/listings/bookings involved, and checks already tried.
 
-Warranty coverage and response expectations remain **per full-time contract** — see [14 Support and Warranty](14-Support-and-Warranty.md).
+Warranty coverage and response expectations remain **per full-time contract** — see [14 Support and Warranty](14-support-and-warranty).

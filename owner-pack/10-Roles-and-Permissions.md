@@ -1,3 +1,14 @@
+---
+title: Roles and Permissions
+description: Who can do what on Town Ruins — roles matrix for owners, admins, landlords, and tenants.
+tags:
+  - owner
+  - owner-pack
+  - roles
+  - permissions
+  - hweva
+---
+
 # Roles and Permissions
 
 | Field | Value |
@@ -7,7 +18,7 @@
 | **Version** | 1.0 |
 | **Product** | [https://app.townruins.com](https://app.townruins.com) |
 | **Support** | [sandbox@townruins.com](mailto:sandbox@townruins.com) |
-| **Related** | [06 Feature Catalogue](06-Feature-Catalogue.md) · [12 Data Ownership](12-Data-Ownership.md) · [07 Admin Panel Guide](07-Admin-Panel-Guide.md) |
+| **Related** | [06 Feature Catalogue](06-feature-catalogue) · [12 Data Ownership](12-data-ownership) · [07 Admin Panel Guide](07-admin-panel-guide) |
 
 ---
 
@@ -172,6 +183,6 @@ For day-to-day ownership, **both** `admin` and `super_admin` use the **same admi
 
 | Need | Document |
 | --- | --- |
-| What shipped for each role | [06 Feature Catalogue](06-Feature-Catalogue.md) |
-| Who owns which data decisions | [12 Data Ownership](12-Data-Ownership.md) |
-| How to use the admin UI day to day | [07 Admin Panel Guide](07-Admin-Panel-Guide.md) · [11 Daily Operations](11-Daily-Operations.md) |
+| What shipped for each role | [06 Feature Catalogue](06-feature-catalogue) |
+| Who owns which data decisions | [12 Data Ownership](12-data-ownership) |
+| How to use the admin UI day to day | [07 Admin Panel Guide](07-admin-panel-guide) · [11 Daily Operations](11-daily-operations) |

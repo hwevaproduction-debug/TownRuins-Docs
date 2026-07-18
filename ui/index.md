@@ -22,7 +22,7 @@ aliases:
 
 <div class="tr-folder-nav">
 
-<a class="tr-folder-nav-item" href="./UI_GUIDELINES">
+<a class="tr-folder-nav-item" href="../standards/ui-guidelines">
 <span class="tr-folder-icon">&#128444;</span>
 UI Guidelines
 </a>
@@ -46,6 +46,6 @@ UI Guidelines
 <div class="tr-dashboard-section">
 <h3>Frequently Accessed Pages</h3>
 <ul>
-<li><a href="./UI_GUIDELINES">UI Guidelines</a></li>
+<li><a href="../standards/ui-guidelines">UI Guidelines</a></li>
 </ul>
 </div>

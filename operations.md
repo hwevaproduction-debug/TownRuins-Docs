@@ -32,7 +32,7 @@ aliases:
 <div class="tr-dashboard-section">
 <h3>Quick Actions</h3>
 <div class="tr-dashboard-grid">
-<a class="tr-surface tr-surface--md" href="./deployment/">
+<a class="tr-surface tr-surface--md" href="./operations/deployment">
 <span class="tr-surface__title">Deploy</span>
 <span class="tr-surface__summary">Master deployment guide covering architecture, build, env vars, and DNS.</span>
 </a>
@@ -78,7 +78,7 @@ aliases:
 
 <div class="tr-dashboard-section">
 <h3>Next Reading</h3>
-<p>Start with the <a href="./operations/documentation_index">Documentation Index</a> for a complete map of operational documentation, then review the <a href="./deployment/">Deployment Guide</a> for the end-to-end deployment flow.</p>
+<p>Start with the <a href="./operations/documentation_index">Documentation Index</a> for a complete map of operational documentation, then review the <a href="./operations/deployment">Deployment Guide</a> for the end-to-end deployment flow.</p>
 </div>
 
 </div>

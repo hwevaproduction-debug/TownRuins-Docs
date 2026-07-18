@@ -1,3 +1,13 @@
+---
+title: Business Processes
+description: Marketplace process context for owners — why queues exist and how the long-term rental lifecycle works.
+tags:
+  - owner
+  - owner-pack
+  - business-processes
+  - hweva
+---
+
 # Business Processes
 
 | Field | Value |
@@ -7,7 +17,7 @@
 | **Version** | 1.0 |
 | **Product** | [https://app.townruins.com](https://app.townruins.com) |
 | **Support** | [sandbox@townruins.com](mailto:sandbox@townruins.com) |
-| **Related** | [11 Daily Operations](11-Daily-Operations.md) · [06 Feature Catalogue](06-Feature-Catalogue.md) · [10 Roles and Permissions](10-Roles-and-Permissions.md) · [12 Data Ownership](12-Data-Ownership.md) |
+| **Related** | [11 Daily Operations](11-daily-operations) · [06 Feature Catalogue](06-feature-catalogue) · [10 Roles and Permissions](10-roles-and-permissions) · [12 Data Ownership](12-data-ownership) |
 
 ---
 
@@ -15,13 +25,13 @@
 
 This document describes **how the business runs** on Town Ruins version **1.0** — major journeys and decision points for owners and operators.
 
-It is **not** a button-by-button admin manual (see [07 Admin Panel Guide](07-Admin-Panel-Guide.md) when published). Use it to train staff, explain the marketplace to colleagues, and decide who acts when something is waiting on the owner organisation.
+It is **not** a button-by-button admin manual (see [07 Admin Panel Guide](07-admin-panel-guide) when published). Use it to train staff, explain the marketplace to colleagues, and decide who acts when something is waiting on the owner organisation.
 
 **Two commercial rules every process assumes**
 
 | Rule | Meaning for owners |
 | --- | --- |
-| **TR Tokens** | Premium platform actions (contact unlock, listing restore, and similar) use **TR Tokens** as the platform currency. Users buy tokens with money (purchase path may be demo-only in v1.0 — see [06 Feature Catalogue](06-Feature-Catalogue.md)). |
+| **TR Tokens** | Premium platform actions (contact unlock, listing restore, and similar) use **TR Tokens** as the platform currency. Users buy tokens with money (purchase path may be demo-only in v1.0 — see [06 Feature Catalogue](06-feature-catalogue)). |
 | **Temporary stay exception** | Short-term room bookings use **real money** for charges, refunds, cancellations, and related settlement — not TR Tokens. |
 
 ---
@@ -69,7 +79,7 @@ flowchart TB
 | Temporary stay booking | Tenant + Provider + Admin | Verify providers; settle completed stays; resolve disputes |
 | Admin verify / moderate / settle | Admin / Super admin | Core daily operating work |
 
-Roles and who may do what: [10 Roles and Permissions](10-Roles-and-Permissions.md). Who owns data decisions: [12 Data Ownership](12-Data-Ownership.md).
+Roles and who may do what: [10 Roles and Permissions](10-roles-and-permissions). Who owns data decisions: [12 Data Ownership](12-data-ownership).
 
 ---
 
@@ -79,12 +89,12 @@ Roles and who may do what: [10 Roles and Permissions](10-Roles-and-Permissions.m
 
 ### Business steps
 
-1. **Register** — The person signs up on the public site as a **landlord** (public sign-up path). Admin accounts are **not** created this way ([10 Roles](10-Roles-and-Permissions.md)).
+1. **Register** — The person signs up on the public site as a **landlord** (public sign-up path). Admin accounts are **not** created this way ([10 Roles](10-roles-and-permissions)).
 2. **Verify email** — They open the verification link from their inbox. Unverified accounts cannot complete normal login. Resend is available if mail is delayed.
 3. **Welcome TR Tokens** — On first successful email verification (or as a new Google user), the platform credits a **100 TR** welcome bonus to the wallet.
 4. **Complete profile** — Username, contact details, avatar, and password as needed so tenants and support can trust the account.
 5. **Identity verification documents (optional path)** — The landlord may submit ID image + selfie for identity review. Status moves: **Unverified → Pending review → Verified or Rejected**.
-6. **Admin review / approve (owner step)** — Owner staff review pending landlord identity submissions and approve or reject. *v1.0 note:* document submission exists; the polished admin review screen may be **partial** — still treat the **decision** as owner-owned ([06 Feature Catalogue](06-Feature-Catalogue.md)).
+6. **Admin review / approve (owner step)** — Owner staff review pending landlord identity submissions and approve or reject. *v1.0 note:* document submission exists; the polished admin review screen may be **partial** — still treat the **decision** as owner-owned ([06 Feature Catalogue](06-feature-catalogue)).
 7. **Create listing** — Landlord runs the listing wizard (drafts autosave). In v1.0: **one active listing per landlord**.
 8. **Activate / publish** — Listing goes through payment/activation where a fee applies (`pending payment` → `active` or early-access style visibility). Photos and accurate rent/location improve quality.
 9. **Live in search** — Active listings appear for tenants; landlords receive engagement requests and respond.
@@ -169,7 +179,7 @@ flowchart TD
 
 1. **Create** — Landlord completes wizard (name, description, location, rent, rooms, amenities, images).
 2. **Activate** — Pay listing fee where required; status becomes active (or early access, then broader active behaviour per product).
-3. **Maintain** — Landlord edits rent, amenities, photos while active. Accuracy is the landlord’s responsibility ([12 Data Ownership](12-Data-Ownership.md)).
+3. **Maintain** — Landlord edits rent, amenities, photos while active. Accuracy is the landlord’s responsibility ([12 Data Ownership](12-data-ownership)).
 4. **Engage** — Tenants send contact requests; landlord approves/declines (see section 2).
 5. **Expire** — When the listing reaches its end date, it leaves search.
 6. **Restore with TR** — Landlord restores for a chosen number of days: **1 TR × days** (up to **30 days**). Tokens leave the landlord wallet.
@@ -263,7 +273,7 @@ flowchart TD
 | 3 | Admin reviews documents (UI may be partial in v1.0) |
 | 4 | **Approve** → verified; **Reject** → landlord must resubmit or operate unverified per product rules |
 
-Owner owns the decision; developer support only if the tool is broken ([12 Data Ownership](12-Data-Ownership.md)).
+Owner owns the decision; developer support only if the tool is broken ([12 Data Ownership](12-data-ownership)).
 
 ### 5.2 Provider verification and commission
 
@@ -318,7 +328,7 @@ Owner owns the decision; developer support only if the tool is broken ([12 Data 
 
 ### 5.7 Dangerous action
 
-**Account deletion** by admin is **irreversible** and cascades related records. Confirm identity and business intent before deleting ([10 Roles](10-Roles-and-Permissions.md)).
+**Account deletion** by admin is **irreversible** and cascades related records. Confirm identity and business intent before deleting ([10 Roles](10-roles-and-permissions)).
 
 ---
 
@@ -329,7 +339,7 @@ Owner owns the decision; developer support only if the tool is broken ([12 Data 
 | Landlord / tenant onboarding | Accounts, wallet welcome bonus | Morning: new registrations, verification |
 | Listing lifecycle + engagements | Long-term marketplace + TR rules | Weekly: inactive listings |
 | Temporary stay booking | Stays + real payments | Morning: booking requests; settle as needed |
-| Admin verify / moderate / settle | Admin dashboard capabilities | All checklists in [11 Daily Operations](11-Daily-Operations.md) |
+| Admin verify / moderate / settle | Admin dashboard capabilities | All checklists in [11 Daily Operations](11-daily-operations) |
 
 ---
 
@@ -337,10 +347,10 @@ Owner owns the decision; developer support only if the tool is broken ([12 Data 
 
 | Topic | Where it lives |
 | --- | --- |
-| Click-by-click admin screens | [07 Admin Panel Guide](07-Admin-Panel-Guide.md) / [04 Administrator Guide](04-Administrator-Guide.md) |
-| End-user how-to screenshots | [03 User Manual](03-User-Manual.md) |
-| FAQ and troubleshooting | [08 FAQ](08-FAQ.md) · [09 Troubleshooting](09-Troubleshooting.md) |
-| Roadmap / not-in-v1.0 items | [06 Feature Catalogue](06-Feature-Catalogue.md) known limits · [13 Release Notes](13-Release-Notes.md) |
+| Click-by-click admin screens | [07 Admin Panel Guide](07-admin-panel-guide) / [04 Administrator Guide](04-administrator-guide) |
+| End-user how-to screenshots | [03 User Manual](03-user-manual) |
+| FAQ and troubleshooting | [08 FAQ](08-faq) · [09 Troubleshooting](09-troubleshooting) |
+| Roadmap / not-in-v1.0 items | [06 Feature Catalogue](06-feature-catalogue) known limits · [13 Release Notes](13-release-notes) |
 
 ---
 
@@ -348,8 +358,8 @@ Owner owns the decision; developer support only if the tool is broken ([12 Data 
 
 | Need | Document |
 | --- | --- |
-| Day-to-day checklists | [11 Daily Operations](11-Daily-Operations.md) |
-| What shipped | [06 Feature Catalogue](06-Feature-Catalogue.md) |
-| Who can act | [10 Roles and Permissions](10-Roles-and-Permissions.md) |
-| Who owns decisions | [12 Data Ownership](12-Data-Ownership.md) |
-| First login as owner | [02 Quick Start](02-Quick-Start.md) |
+| Day-to-day checklists | [11 Daily Operations](11-daily-operations) |
+| What shipped | [06 Feature Catalogue](06-feature-catalogue) |
+| Who can act | [10 Roles and Permissions](10-roles-and-permissions) |
+| Who owns decisions | [12 Data Ownership](12-data-ownership) |
+| First login as owner | [02 Quick Start](02-quick-start) |

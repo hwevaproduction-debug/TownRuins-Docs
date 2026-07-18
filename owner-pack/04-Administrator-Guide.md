@@ -1,3 +1,13 @@
+---
+title: Administrator Guide
+description: Day-to-day administrator playbooks for common owner staff tasks on the Town Ruins admin surface.
+tags:
+  - owner
+  - owner-pack
+  - administrator
+  - hweva
+---
+
 # Administrator Guide
 
 | Field | Value |
@@ -7,7 +17,7 @@
 | **Version** | 1.0 |
 | **Product** | [https://app.townruins.com](https://app.townruins.com) |
 | **Support** | [sandbox@townruins.com](mailto:sandbox@townruins.com) |
-| **Related** | [03 User Manual](03-User-Manual.md) · [07 Admin Panel Guide](07-Admin-Panel-Guide.md) · [11 Daily Operations](11-Daily-Operations.md) · [05 Business Processes](05-Business-Processes.md) |
+| **Related** | [03 User Manual](03-user-manual) · [07 Admin Panel Guide](07-admin-panel-guide) · [11 Daily Operations](11-daily-operations) · [05 Business Processes](05-business-processes) |
 
 ---
 
@@ -18,9 +28,9 @@ This guide is the **day-to-day administrator playbook** for owner staff. It tell
 | Document | Role |
 | --- | --- |
 | This guide | Task playbooks: create staff access, verify, moderate, settle, resolve |
-| [03 User Manual](03-User-Manual.md) | Broader illustrated orientation for owner staff |
-| [07 Admin Panel Guide](07-Admin-Panel-Guide.md) | Page-by-page buttons, filters, and things to avoid |
-| [11 Daily Operations](11-Daily-Operations.md) | Morning / weekly / monthly checklists |
+| [03 User Manual](03-user-manual) | Broader illustrated orientation for owner staff |
+| [07 Admin Panel Guide](07-admin-panel-guide) | Page-by-page buttons, filters, and things to avoid |
+| [11 Daily Operations](11-daily-operations) | Morning / weekly / monthly checklists |
 
 **Not in this guide:** Deployment, server logs, database administration, or incident engineering runbooks. Those belong to technical operations and the developer engagement — not first-line owner work.
 
@@ -487,7 +497,7 @@ Do not tell users that token packages process real card charges if purchase rema
 | Super admin vs admin provider nuance | Keep a working `admin` account for verify/commission |
 | Feature flags off for some roadmap features | Do not treat as delivered v1.0 acceptance features |
 
-Full product catalogue of what shipped: [06 Feature Catalogue](06-Feature-Catalogue.md).
+Full product catalogue of what shipped: [06 Feature Catalogue](06-feature-catalogue).
 
 ---
 
@@ -509,12 +519,12 @@ Full product catalogue of what shipped: [06 Feature Catalogue](06-Feature-Catalo
 
 | Need | Document |
 | --- | --- |
-| Illustrated orientation | [03 User Manual](03-User-Manual.md) |
-| Every page and control | [07 Admin Panel Guide](07-Admin-Panel-Guide.md) |
-| Cadence checklists | [11 Daily Operations](11-Daily-Operations.md) |
-| Process context | [05 Business Processes](05-Business-Processes.md) |
-| Permissions matrix | [10 Roles and Permissions](10-Roles-and-Permissions.md) |
-| Decision ownership | [12 Data Ownership](12-Data-Ownership.md) |
+| Illustrated orientation | [03 User Manual](03-user-manual) |
+| Every page and control | [07 Admin Panel Guide](07-admin-panel-guide) |
+| Cadence checklists | [11 Daily Operations](11-daily-operations) |
+| Process context | [05 Business Processes](05-business-processes) |
+| Permissions matrix | [10 Roles and Permissions](10-roles-and-permissions) |
+| Decision ownership | [12 Data Ownership](12-data-ownership) |
 
 ---
 

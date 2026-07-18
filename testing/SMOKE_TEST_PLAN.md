@@ -1,4 +1,18 @@
-﻿# Moved
+---
+title: Smoke Test Plan
+description: Redirect to the canonical smoke test plan under Operations.
+tags:
+  - smoke-tests
+  - testing
+  - redirect
+aliases:
+  - Testing Smoke Plan
+---
 
-This document has moved to [../../docs/operations/SMOKE_TEST_PLAN.md](../../docs/operations/SMOKE_TEST_PLAN.md).
+# Smoke Test Plan
 
+The canonical launch-day smoke test plan lives under Operations:
+
+**[Operations — Smoke Test Plan](../operations/SMOKE_TEST_PLAN)**
+
+Use that page for the 15–30 minute critical-workflow verification guide.

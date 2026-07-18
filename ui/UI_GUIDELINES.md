@@ -1,4 +1,18 @@
-﻿# Moved
+---
+title: UI Guidelines
+description: Redirect to the canonical UI guidelines under Standards.
+tags:
+  - ui
+  - guidelines
+  - redirect
+aliases:
+  - UI Guidelines Redirect
+---
 
-This document has moved to [standards/ui-guidelines.md](standards/ui-guidelines.md).
+# UI Guidelines
 
+The canonical frontend design standards live under Standards:
+
+**[Standards — UI Guidelines](../standards/ui-guidelines)**
+
+Use that page for design system notes, component patterns, and accessibility rules.

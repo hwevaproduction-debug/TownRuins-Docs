@@ -21,20 +21,20 @@ Branch context: awsfullmig
 
 ## Related Documents
 
-- [docs/deployment/DEPLOYMENT.md](../deployment/DEPLOYMENT.md)
-- [docs/deployment/ENVIRONMENT_VARIABLES.md](../deployment/ENVIRONMENT_VARIABLES.md)
-- [docs/testing/SMOKE_TEST_PLAN.md](../testing/SMOKE_TEST_PLAN.md)
+- [Deployment](../deployment/)
+- [Environment Variables](ENVIRONMENT_VARIABLES)
+- [Smoke Test Plan](SMOKE_TEST_PLAN)
 
 ## Prerequisites
 
-- Review [docs/deployment/DEPLOYMENT.md](../deployment/DEPLOYMENT.md)
-- Review [docs/testing/SMOKE_TEST_PLAN.md](../testing/SMOKE_TEST_PLAN.md)
+- Review [Deployment](../deployment/)
+- Review [Smoke Test Plan](SMOKE_TEST_PLAN)
 
 ## Derived Documents
 
-- [docs/operations/LAUNCH_DAY_RUNBOOK.md](LAUNCH_DAY_RUNBOOK.md)
-- [docs/operations/ROLLBACK.md](ROLLBACK.md)
-- [docs/operations/TROUBLESHOOTING.md](TROUBLESHOOTING.md)
+- [Launch Day Runbook](LAUNCH_DAY_RUNBOOK)
+- [Rollback](ROLLBACK)
+- [Troubleshooting](TROUBLESHOOTING)
 
 ## Scope
 

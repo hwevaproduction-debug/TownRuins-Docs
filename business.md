@@ -32,11 +32,11 @@ aliases:
 <div class="tr-dashboard-section">
 <h3>Quick Actions</h3>
 <div class="tr-dashboard-grid">
-<a class="tr-surface tr-surface--md" href="./product/vision">
+<a class="tr-surface tr-surface--md" href="./strategy/vision">
 <span class="tr-surface__title">Vision</span>
 <span class="tr-surface__summary">Platform vision, scope, and long-term objectives.</span>
 </a>
-<a class="tr-surface tr-surface--md" href="./product/feature_roadmap">
+<a class="tr-surface tr-surface--md" href="./strategy/feature-roadmap">
 <span class="tr-surface__title">Feature Roadmap</span>
 <span class="tr-surface__summary">Planned features, milestones, and release timeline.</span>
 </a>
@@ -78,7 +78,7 @@ aliases:
 
 <div class="tr-dashboard-section">
 <h3>Next Reading</h3>
-<p>Start with the <a href="./product/vision">Vision</a> to understand platform direction, then review <a href="./business/token_economy">Token Economy</a> for monetization and <a href="./business/temporary_stay">Temporary Stay</a> for booking policies.</p>
+<p>Start with the <a href="./strategy/vision">Vision</a> to understand platform direction, then review <a href="./business/token_economy">Token Economy</a> for monetization and <a href="./business/temporary_stay">Temporary Stay</a> for booking policies.</p>
 </div>
 
 </div>

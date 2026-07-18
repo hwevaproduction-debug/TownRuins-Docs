@@ -1,3 +1,13 @@
+---
+title: User Manual
+description: Illustrated orientation for owner staff operating Town Ruins day to day from the admin surface.
+tags:
+  - owner
+  - owner-pack
+  - user-manual
+  - hweva
+---
+
 # User Manual
 
 | Field | Value |
@@ -7,7 +17,7 @@
 | **Version** | 1.0 |
 | **Product** | [https://app.townruins.com](https://app.townruins.com) |
 | **Support** | [sandbox@townruins.com](mailto:sandbox@townruins.com) |
-| **Related** | [04 Administrator Guide](04-Administrator-Guide.md) · [07 Admin Panel Guide](07-Admin-Panel-Guide.md) · [02 Quick Start](02-Quick-Start.md) · [11 Daily Operations](11-Daily-Operations.md) |
+| **Related** | [04 Administrator Guide](04-administrator-guide) · [07 Admin Panel Guide](07-admin-panel-guide) · [02 Quick Start](02-quick-start) · [11 Daily Operations](11-daily-operations) |
 
 ---
 
@@ -19,11 +29,11 @@ It is **admin-primary**: you use the same production app as everyone else, signe
 
 | If you need… | Use this instead |
 | --- | --- |
-| First login walkthrough (look-only) | [02 Quick Start](02-Quick-Start.md) |
-| Morning/weekly checklists | [11 Daily Operations](11-Daily-Operations.md) |
-| Button-level page reference | [07 Admin Panel Guide](07-Admin-Panel-Guide.md) |
-| Task playbooks (suspend, settle, legal) | [04 Administrator Guide](04-Administrator-Guide.md) |
-| Who can do what | [10 Roles and Permissions](10-Roles-and-Permissions.md) |
+| First login walkthrough (look-only) | [02 Quick Start](02-quick-start) |
+| Morning/weekly checklists | [11 Daily Operations](11-daily-operations) |
+| Button-level page reference | [07 Admin Panel Guide](07-admin-panel-guide) |
+| Task playbooks (suspend, settle, legal) | [04 Administrator Guide](04-administrator-guide) |
+| Who can do what | [10 Roles and Permissions](10-roles-and-permissions) |
 
 Screenshots will be captured later. Every major screen uses a labeled placeholder so procedures stay complete without images.
 
@@ -72,7 +82,7 @@ Screenshots will be captured later. Every major screen uses a labeled placeholde
 | Email not verified (public roles) | For end users: resend verification + spam folder — see [Supporting end users](#12-supporting-end-users-what-owners-need-to-know) |
 | Still blocked for admin staff | Email [sandbox@townruins.com](mailto:sandbox@townruins.com) — do **not** create a new admin via public sign-up |
 
-There is **no public “Create admin account”** button. Admin accounts are provisioned by a **controlled seed / operator process** only ([04 Administrator Guide](04-Administrator-Guide.md)).
+There is **no public “Create admin account”** button. Admin accounts are provisioned by a **controlled seed / operator process** only ([04 Administrator Guide](04-administrator-guide)).
 
 ---
 
@@ -124,7 +134,7 @@ After admin login you work from the **admin dashboard** — the main operating s
 | Legal documents | Terms, privacy, and related public legal pages |
 | Audit logs | Who did what (accountability) |
 
-Exact section labels and navigation order may vary slightly by build; use the dashboard navigation and the page-by-page map in [07 Admin Panel Guide](07-Admin-Panel-Guide.md).
+Exact section labels and navigation order may vary slightly by build; use the dashboard navigation and the page-by-page map in [07 Admin Panel Guide](07-admin-panel-guide).
 
 > **Screenshot:** `[SCREENSHOT: user-manual-admin-dashboard]`
 >
@@ -134,7 +144,7 @@ Exact section labels and navigation order may vary slightly by build; use the da
 
 ### Safe first habit
 
-On a busy day: open the dashboard → clear **verification / providers / accommodations** → **reports / disputes** → **bookings needing settlement**. That order matches [11 Daily Operations](11-Daily-Operations.md).
+On a busy day: open the dashboard → clear **verification / providers / accommodations** → **reports / disputes** → **bookings needing settlement**. That order matches [11 Daily Operations](11-daily-operations).
 
 ---
 
@@ -148,7 +158,7 @@ There is **no full “browse all users” list** in the admin dashboard in versi
 | --- | --- |
 | Help someone log in | Guide self-service (verify email, reset password) |
 | See activity tied to bookings / listings / reports | Use those admin sections, not a global user grid |
-| Remove a bad actor entirely | Account **deletion** is available as an **admin power** but is **irreversible** and cascading — use only with confirmed business intent ([04](04-Administrator-Guide.md)) |
+| Remove a bad actor entirely | Account **deletion** is available as an **admin power** but is **irreversible** and cascading — use only with confirmed business intent ([04](04-administrator-guide)) |
 | Grant promo TR Tokens | **No dedicated grant UI** — contact [sandbox@townruins.com](mailto:sandbox@townruins.com) or the developer under the full-time contract for technical support paths |
 
 Do not invent a user-management screen that is not there. Prefer business decisions in the tools you **do** have (listings, providers, reports, disputes).
@@ -429,7 +439,7 @@ From **Legal documents** in the admin surface you manage public legal pages, inc
 
 ### Product feature toggles
 
-Some capabilities ship **off** until enabled (for example featured listings, visibility boosts, phone verification UI). Owners should not expect those as live v1.0 acceptance features when they are documented as off or not in v1.0 — see [06 Feature Catalogue](06-Feature-Catalogue.md). Changing feature flags is a **configuration** matter; if you need a flag changed and have no operator UI for it, use support under the full-time contract rather than inventing a settings screen.
+Some capabilities ship **off** until enabled (for example featured listings, visibility boosts, phone verification UI). Owners should not expect those as live v1.0 acceptance features when they are documented as off or not in v1.0 — see [06 Feature Catalogue](06-feature-catalogue). Changing feature flags is a **configuration** matter; if you need a flag changed and have no operator UI for it, use support under the full-time contract rather than inventing a settings screen.
 
 ---
 
@@ -507,13 +517,13 @@ This section is **support-oriented only** — not a full tenant/landlord/provide
 
 | Need | Document |
 | --- | --- |
-| Day-to-day task playbooks | [04 Administrator Guide](04-Administrator-Guide.md) |
-| Every admin page | [07 Admin Panel Guide](07-Admin-Panel-Guide.md) |
-| Morning / weekly lists | [11 Daily Operations](11-Daily-Operations.md) |
-| Process “why” | [05 Business Processes](05-Business-Processes.md) |
-| What shipped | [06 Feature Catalogue](06-Feature-Catalogue.md) |
-| Roles | [10 Roles and Permissions](10-Roles-and-Permissions.md) |
-| Who owns which decisions | [12 Data Ownership](12-Data-Ownership.md) |
+| Day-to-day task playbooks | [04 Administrator Guide](04-administrator-guide) |
+| Every admin page | [07 Admin Panel Guide](07-admin-panel-guide) |
+| Morning / weekly lists | [11 Daily Operations](11-daily-operations) |
+| Process “why” | [05 Business Processes](05-business-processes) |
+| What shipped | [06 Feature Catalogue](06-feature-catalogue) |
+| Roles | [10 Roles and Permissions](10-roles-and-permissions) |
+| Who owns which decisions | [12 Data Ownership](12-data-ownership) |
 
 ---
 

@@ -1,3 +1,14 @@
+---
+title: Support and Warranty
+description: Support contact, scope, and warranty boundaries for Town Ruins owners (sandbox@townruins.com).
+tags:
+  - owner
+  - owner-pack
+  - support
+  - warranty
+  - hweva
+---
+
 # Support and Warranty
 
 | Field | Value |
@@ -7,7 +18,7 @@
 | **Version** | 1.0 |
 | **Product** | [https://app.townruins.com](https://app.townruins.com) |
 | **Support** | [sandbox@townruins.com](mailto:sandbox@townruins.com) |
-| **Related** | [01 Welcome](01-Welcome.md) · [12 Data Ownership](12-Data-Ownership.md) · [15 Project Acceptance](15-Project-Acceptance.md) · [09 Troubleshooting](09-Troubleshooting.md) |
+| **Related** | [01 Welcome](01-welcome) · [12 Data Ownership](12-data-ownership) · [15 Project Acceptance](15-project-acceptance) · [09 Troubleshooting](09-troubleshooting) |
 
 ---
 
@@ -69,7 +80,7 @@ This owner pack **does not invent** fixed SLA numbers (for example “reply with
 | Exclusion / owner domain | Why |
 | --- | --- |
 | **Third-party outages** | Payment processors, email providers, DNS, cloud regions, browser vendors, etc. outside developer control — owner and developer coordinate, but warranty is not a guarantee of third-party uptime |
-| **New feature requests** outside contracted scope | Roadmap items (chat, map search, multi-listing, full users CRM, etc.) need separate agreement — see [13 Release Notes](13-Release-Notes.md) known limits |
+| **New feature requests** outside contracted scope | Roadmap items (chat, map search, multi-listing, full users CRM, etc.) need separate agreement — see [13 Release Notes](13-release-notes) known limits |
 | **Owner operations decisions** | Verification outcomes, moderation, dispute resolution on commercial/policy grounds, legal document wording, who may be staff admin |
 | **User content and user error** | Wrong passwords, spam folders, landlord listing quality, guest/provider disputes that are policy not product bugs |
 | **Known product limits documented for v1.0** | Missing full users list UI, demo token purchase path, partial landlord verification UI — these are documented limits, not silent defects, unless the contract says otherwise |
@@ -111,15 +122,15 @@ flowchart LR
 | Provision new admin staff accounts | Request via support/process | Performs controlled provision under engagement |
 | Fix product bugs in delivered 1.0 | Report clearly | **Yes — per full-time contract** |
 | Invent SLA hours in this pack | **No** | Contract states terms |
-| Accept version 1.0 formally | Sign [15 Project Acceptance](15-Project-Acceptance.md) | Counter-sign as developer |
+| Accept version 1.0 formally | Sign [15 Project Acceptance](15-project-acceptance) | Counter-sign as developer |
 
-Full responsibility matrix by data domain: [12 Data Ownership](12-Data-Ownership.md).
+Full responsibility matrix by data domain: [12 Data Ownership](12-data-ownership).
 
 ---
 
 ## How to raise a support request
 
-1. Confirm it is not a routine ops issue ([08 FAQ](08-FAQ.md), [09 Troubleshooting](09-Troubleshooting.md)).  
+1. Confirm it is not a routine ops issue ([08 FAQ](08-faq), [09 Troubleshooting](09-troubleshooting)).  
 2. Email [sandbox@townruins.com](mailto:sandbox@townruins.com).  
 3. Include:
    - What failed (symptom in plain language)  
@@ -133,7 +144,7 @@ Full responsibility matrix by data domain: [12 Data Ownership](12-Data-Ownership
 
 ## Warranty after acceptance
 
-Formal acceptance of Town Ruins **1.0** (product + owner pack) is recorded in [15 Project Acceptance](15-Project-Acceptance.md).
+Formal acceptance of Town Ruins **1.0** (product + owner pack) is recorded in [15 Project Acceptance](15-project-acceptance).
 
 After acceptance:
 

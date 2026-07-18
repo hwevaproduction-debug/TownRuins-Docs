@@ -1,3 +1,13 @@
+---
+title: Feature Catalogue
+description: What shipped in Town Ruins 1.0 for owners, plus known limits and items not in acceptance scope.
+tags:
+  - owner
+  - owner-pack
+  - feature-catalogue
+  - hweva
+---
+
 # Feature Catalogue
 
 | Field | Value |
@@ -7,7 +17,7 @@
 | **Version** | 1.0 |
 | **Product** | [https://app.townruins.com](https://app.townruins.com) |
 | **Support** | [sandbox@townruins.com](mailto:sandbox@townruins.com) |
-| **Related** | [10 Roles and Permissions](10-Roles-and-Permissions.md) · [12 Data Ownership](12-Data-Ownership.md) · [13 Release Notes](13-Release-Notes.md) |
+| **Related** | [10 Roles and Permissions](10-roles-and-permissions) · [12 Data Ownership](12-data-ownership) · [13 Release Notes](13-release-notes) |
 
 ---
 
@@ -17,7 +27,7 @@ This document is the **proof-of-delivery list** for Town Ruins version **1.0**. 
 
 - Only **delivered** capabilities are listed as in scope.
 - Items that are **not** part of v1.0 delivery (or are known limits) appear only in [Known limits and items not in v1.0](#known-limits-and-items-not-in-v10).
-- How-to steps live in the manuals ([03](03-User-Manual.md), [04](04-Administrator-Guide.md), [07](07-Admin-Panel-Guide.md)); this catalogue is the **what**, not the full **how**.
+- How-to steps live in the manuals ([03](03-user-manual), [04](04-administrator-guide), [07](07-admin-panel-guide)); this catalogue is the **what**, not the full **how**.
 
 ---
 
@@ -130,7 +140,7 @@ Admin access is the **same production app**: sign in at [https://app.townruins.c
 | Admin dashboard home | Admin, Super admin | Primary operating surface for owners |
 | Listing moderation (view inactive, bulk revive, deactivate) | Admin, Super admin | Keep marketplace clean and recoverable |
 | Landlord identity verification review | Admin, Super admin | Backend submission exists; full review UI may be partial — operators still own the decision |
-| Provider verification and commission | Admin (see [Roles](10-Roles-and-Permissions.md) for super_admin nuance) | Approve hosts before publish |
+| Provider verification and commission | Admin (see [Roles](10-roles-and-permissions) for super_admin nuance) | Approve hosts before publish |
 | Accommodation moderation queue | Admin, Super admin | Approve / reject / suspend / reinstate |
 | View all bookings; settle bookings | Admin, Super admin | Money ops for stays |
 | Dispute management (review, resolve, close) | Admin, Super admin | Owner decision authority |
@@ -219,7 +229,7 @@ These are **not** described as delivered product for acceptance. They appear her
 | Full landlord ID verification **admin review UI** | **Partial** — submission path exists; treat full polished review UI as incomplete where guides say so |
 | Phone verification as a fully enabled product path | **Not enabled by default** (feature flag / config dependent) |
 
-Operational and engineering details of these limits belong in [13 Release Notes](13-Release-Notes.md) when published. Do not treat “planned” roadmap items as acceptance evidence.
+Operational and engineering details of these limits belong in [13 Release Notes](13-release-notes) when published. Do not treat “planned” roadmap items as acceptance evidence.
 
 ---
 
@@ -229,6 +239,6 @@ When using this catalogue for formal acceptance of version **1.0**:
 
 1. Confirm each **delivered** table row matches what you observe on [https://app.townruins.com](https://app.townruins.com) for your role.
 2. Confirm known limits above match your commercial expectation (especially **token purchase demo** vs **live stay payments**).
-3. Sign against the pack version and product URL in [15 Project Acceptance](15-Project-Acceptance.md) when that document is ready.
+3. Sign against the pack version and product URL in [15 Project Acceptance](15-project-acceptance) when that document is ready.
 
 This catalogue is evidence of **what was delivered**, not a promise of future roadmap items.

@@ -15,23 +15,27 @@ aliases:
 
 # Product
 
-<p>Vision, feature roadmap, and strategic next steps for the Town Ruins platform.</p>
+<p>Product folder for the Town Ruins Operations Portal — roadmap and next steps navigation.</p>
 
+</div>
+
+<div class="tr-dashboard-section" style="margin-top: 0.5rem;">
+<p><strong>Honesty for owners:</strong> Some linked “vision” pages currently describe an <em>AI-native engineering workspace</em> narrative that is <strong>not</strong> the Town Ruins marketplace product. Prefer <a href="../owner-pack/06-feature-catalogue">Owner Pack — Feature Catalogue</a> and <a href="../owner-pack/13-release-notes">Release Notes</a> for what shipped in v1.0. Treat strategy vision links as <strong>provisional / may need rewrite</strong>.</p>
 </div>
 
 <div class="tr-folder-nav">
 
-<a class="tr-folder-nav-item" href="./VISION">
+<a class="tr-folder-nav-item" href="../strategy/vision">
 <span class="tr-folder-icon">&#127775;</span>
-Vision
+Vision (check honesty note)
 </a>
 
-<a class="tr-folder-nav-item" href="./FEATURE_ROADMAP">
+<a class="tr-folder-nav-item" href="../strategy/feature-roadmap">
 <span class="tr-folder-icon">&#128200;</span>
 Feature Roadmap
 </a>
 
-<a class="tr-folder-nav-item" href="./NEXT_STEPS">
+<a class="tr-folder-nav-item" href="../operations/next-steps">
 <span class="tr-folder-icon">&#10148;</span>
 Next Steps
 </a>
@@ -40,7 +44,7 @@ Next Steps
 
 <div class="tr-dashboard-section" style="margin-top: 1.5rem;">
 <h3>Purpose</h3>
-<p>This folder contains the product-level documentation for the Town Ruins platform. It captures the vision, planned features, and immediate priorities that guide platform development.</p>
+<p>Folder entry for product-related docs linked from owner bridges and dashboards. Owner-facing truth for shipped product is primarily the Owner Pack feature catalogue and release notes until strategy vision is rewritten for Town Ruins.</p>
 </div>
 
 <div class="tr-dashboard-section">
@@ -55,8 +59,8 @@ Next Steps
 <div class="tr-dashboard-section">
 <h3>Frequently Accessed Pages</h3>
 <ul>
-<li><a href="./VISION">Vision</a></li>
-<li><a href="./FEATURE_ROADMAP">Feature Roadmap</a></li>
-<li><a href="./NEXT_STEPS">Next Steps</a></li>
+<li><a href="../strategy/vision">Vision</a></li>
+<li><a href="../strategy/feature-roadmap">Feature Roadmap</a></li>
+<li><a href="../operations/next-steps">Next Steps</a></li>
 </ul>
 </div>

@@ -1,3 +1,13 @@
+---
+title: Admin Panel Guide
+description: Page-by-page reference for the Town Ruins admin panel — buttons, filters, and things to avoid.
+tags:
+  - owner
+  - owner-pack
+  - admin-panel
+  - hweva
+---
+
 # Admin Panel Guide
 
 | Field | Value |
@@ -7,7 +17,7 @@
 | **Version** | 1.0 |
 | **Product** | [https://app.townruins.com](https://app.townruins.com) |
 | **Support** | [sandbox@townruins.com](mailto:sandbox@townruins.com) |
-| **Related** | [04 Administrator Guide](04-Administrator-Guide.md) · [03 User Manual](03-User-Manual.md) · [11 Daily Operations](11-Daily-Operations.md) · [06 Feature Catalogue](06-Feature-Catalogue.md) |
+| **Related** | [04 Administrator Guide](04-administrator-guide) · [03 User Manual](03-user-manual) · [11 Daily Operations](11-daily-operations) · [06 Feature Catalogue](06-feature-catalogue) |
 
 ---
 
@@ -24,7 +34,7 @@ For each admin section you get:
 - **Common actions** — typical owner work
 - **Things to avoid** — easy mistakes
 
-Task playbooks (when and why to settle, suspend, etc.) live in [04 Administrator Guide](04-Administrator-Guide.md). Checklists live in [11 Daily Operations](11-Daily-Operations.md).
+Task playbooks (when and why to settle, suspend, etc.) live in [04 Administrator Guide](04-administrator-guide). Checklists live in [11 Daily Operations](11-daily-operations).
 
 **Entry:** [https://app.townruins.com](https://app.townruins.com) → sign in with **admin** credentials → admin dashboard (`/dashboard/admin`). No separate admin host.
 
@@ -252,7 +262,7 @@ Onboard short-stay hosts: verify, set commission, suspend or reinstate.
 
 - Approving providers without reviewing their accommodation quality path.
 - Leaving commission at an accidental value after approve.
-- Assuming **super_admin** can always run every provider action — keep a working **admin** account for verify/commission if needed ([10 Roles](10-Roles-and-Permissions.md)).
+- Assuming **super_admin** can always run every provider action — keep a working **admin** account for verify/commission if needed ([10 Roles](10-roles-and-permissions)).
 
 > **Screenshot:** `[SCREENSHOT: admin-panel-providers]`
 >
@@ -646,7 +656,7 @@ Token economy is mostly **user-facing**. Admin **promo grants** exist as a capab
 
 | Need | Path |
 | --- | --- |
-| Explain balances and fees | Use [03 User Manual](03-User-Manual.md) and [05 Business Processes](05-Business-Processes.md) |
+| Explain balances and fees | Use [03 User Manual](03-user-manual) and [05 Business Processes](05-business-processes) |
 | Correct a genuine error with a promo grant | Contact [sandbox@townruins.com](mailto:sandbox@townruins.com) / developer under full-time contract |
 | Token purchase complaints | Be honest about **demo-mode** purchase path if still demo |
 
@@ -771,11 +781,11 @@ Personal account maintenance for the signed-in admin.
 
 | Need | Document |
 | --- | --- |
-| Task playbooks | [04 Administrator Guide](04-Administrator-Guide.md) |
-| Broader orientation | [03 User Manual](03-User-Manual.md) |
-| Morning/weekly cadence | [11 Daily Operations](11-Daily-Operations.md) |
-| What shipped | [06 Feature Catalogue](06-Feature-Catalogue.md) |
-| Roles | [10 Roles and Permissions](10-Roles-and-Permissions.md) |
+| Task playbooks | [04 Administrator Guide](04-administrator-guide) |
+| Broader orientation | [03 User Manual](03-user-manual) |
+| Morning/weekly cadence | [11 Daily Operations](11-daily-operations) |
+| What shipped | [06 Feature Catalogue](06-feature-catalogue) |
+| Roles | [10 Roles and Permissions](10-roles-and-permissions) |
 
 ---
 

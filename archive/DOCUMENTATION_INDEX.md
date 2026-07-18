@@ -1,4 +1,14 @@
-﻿# Moved
+---
+title: Documentation Index (Archive Redirect)
+description: Redirect to the canonical operations documentation index.
+tags:
+  - archive
+  - documentation-index
+  - redirect
+---
 
-This document has moved to [../../docs/operations/DOCUMENTATION_INDEX.md](../../docs/operations/DOCUMENTATION_INDEX.md).
+# Documentation Index
 
+The master operations documentation index lives under Operations:
+
+**[Operations — Documentation Index](../operations/DOCUMENTATION_INDEX)**

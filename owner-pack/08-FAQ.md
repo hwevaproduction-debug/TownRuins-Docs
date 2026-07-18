@@ -1,3 +1,13 @@
+---
+title: FAQ
+description: Common questions for platform owners and operators running Town Ruins.
+tags:
+  - owner
+  - owner-pack
+  - faq
+  - hweva
+---
+
 # FAQ
 
 | Field | Value |
@@ -7,7 +17,7 @@
 | **Version** | 1.0 |
 | **Product** | [https://app.townruins.com](https://app.townruins.com) |
 | **Support** | [sandbox@townruins.com](mailto:sandbox@townruins.com) |
-| **Related** | [09 Troubleshooting](09-Troubleshooting.md) · [03 User Manual](03-User-Manual.md) · [04 Administrator Guide](04-Administrator-Guide.md) · [14 Support and Warranty](14-Support-and-Warranty.md) |
+| **Related** | [09 Troubleshooting](09-troubleshooting) · [03 User Manual](03-user-manual) · [04 Administrator Guide](04-administrator-guide) · [14 Support and Warranty](14-support-and-warranty) |
 
 ---
 
@@ -17,9 +27,9 @@ Short answers to questions owner staff hear most often — from yourselves or fr
 
 - Prefer **self-service product paths** first.
 - Escalate product defects to [sandbox@townruins.com](mailto:sandbox@townruins.com).
-- Response times and warranty scope follow the **full-time contract** (see [14 Support and Warranty](14-Support-and-Warranty.md)).
+- Response times and warranty scope follow the **full-time contract** (see [14 Support and Warranty](14-support-and-warranty)).
 
-For step-by-step procedures, use the manuals. For symptom checklists, use [09 Troubleshooting](09-Troubleshooting.md).
+For step-by-step procedures, use the manuals. For symptom checklists, use [09 Troubleshooting](09-troubleshooting).
 
 ---
 
@@ -85,7 +95,7 @@ Landlords may submit **ID image + selfie** for identity verification.
 | Approved / verified | Identity accepted |
 | Rejected | Not accepted; landlord may need to resubmit |
 
-**v1.0 honesty:** The landlord verification **admin review UI may be partial**. Document submission exists; you still own the business decision. If tooling blocks you entirely, contact support under contract. See [04 Administrator Guide](04-Administrator-Guide.md).
+**v1.0 honesty:** The landlord verification **admin review UI may be partial**. Document submission exists; you still own the business decision. If tooling blocks you entirely, contact support under contract. See [04 Administrator Guide](04-administrator-guide).
 
 ---
 
@@ -153,7 +163,7 @@ Stay flow (plain language):
 4. Stay progresses (confirmed → stay → completed).
 5. Owner staff **settle** completed stays in admin with a clear settlement reference when finance requires it.
 
-Disputes are resolved by **owner staff** in the admin disputes section. See [03 User Manual](03-User-Manual.md) and [04 Administrator Guide](04-Administrator-Guide.md).
+Disputes are resolved by **owner staff** in the admin disputes section. See [03 User Manual](03-user-manual) and [04 Administrator Guide](04-administrator-guide).
 
 ---
 
@@ -181,7 +191,7 @@ TR Tokens are Town Ruins’ **in-app currency** for premium platform behaviour �
 | Export / download where the product offers it | Use those controls when present |
 | Full custom reporting suite or guaranteed CSV for every queue | **Not** promised as a complete BI package in this pack |
 
-**Honest guidance:** Export when the tools allow. If a needed extract is missing, record the gap and request a technical extract via [sandbox@townruins.com](mailto:sandbox@townruins.com) under the full-time contract. Do not invent a reporting suite that is not on the admin surface. See [04 Administrator Guide](04-Administrator-Guide.md) § Analytics, reports, and exports.
+**Honest guidance:** Export when the tools allow. If a needed extract is missing, record the gap and request a technical extract via [sandbox@townruins.com](mailto:sandbox@townruins.com) under the full-time contract. Do not invent a reporting suite that is not on the admin surface. See [04 Administrator Guide](04-administrator-guide) § Analytics, reports, and exports.
 
 ---
 
@@ -197,7 +207,7 @@ TR Tokens are Town Ruins’ **in-app currency** for premium platform behaviour �
 
 Developer counter-sign for delivery and acceptance: **Alvin Phiri**. Owner organisation: **Hweva Tech Holdings**.
 
-Details: [14 Support and Warranty](14-Support-and-Warranty.md).
+Details: [14 Support and Warranty](14-support-and-warranty).
 
 ---
 
@@ -221,7 +231,7 @@ Details: [14 Support and Warranty](14-Support-and-Warranty.md).
 | Live paid “featured listing” / visibility boosts | **Not** live acceptance features (flagged / not in v1.0) |
 | Polished full landlord ID review UI | **Partial** — decision still owner-owned |
 
-Full delivered list and known limits: [06 Feature Catalogue](06-Feature-Catalogue.md) and [13 Release Notes](13-Release-Notes.md).
+Full delivered list and known limits: [06 Feature Catalogue](06-feature-catalogue) and [13 Release Notes](13-release-notes).
 
 ---
 

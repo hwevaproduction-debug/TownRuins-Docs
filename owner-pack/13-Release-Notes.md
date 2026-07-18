@@ -1,3 +1,13 @@
+---
+title: Release Notes
+description: Town Ruins version 1.0 release summary for platform owners, including known limits.
+tags:
+  - owner
+  - owner-pack
+  - release-notes
+  - hweva
+---
+
 # Release Notes
 
 | Field | Value |
@@ -7,7 +17,7 @@
 | **Version** | 1.0 |
 | **Product** | [https://app.townruins.com](https://app.townruins.com) |
 | **Support** | [sandbox@townruins.com](mailto:sandbox@townruins.com) |
-| **Related** | [06 Feature Catalogue](06-Feature-Catalogue.md) · [01 Welcome](01-Welcome.md) · [15 Project Acceptance](15-Project-Acceptance.md) |
+| **Related** | [06 Feature Catalogue](06-feature-catalogue) · [01 Welcome](01-welcome) · [15 Project Acceptance](15-project-acceptance) |
 
 ---
 
@@ -23,7 +33,7 @@
 
 These notes describe **what shipped** for acceptance of Town Ruins **1.0**. They match the truth bar used across this pack: delivered capabilities only; real gaps called out as known limitations — not sold as future promises.
 
-The full capability list is in [06 Feature Catalogue](06-Feature-Catalogue.md). This document is the release summary for owners.
+The full capability list is in [06 Feature Catalogue](06-feature-catalogue). This document is the release summary for owners.
 
 ---
 
@@ -84,7 +94,7 @@ The full capability list is in [06 Feature Catalogue](06-Feature-Catalogue.md). 
 
 ### Owner pack (documentation delivery)
 
-- Full non-technical owner pack **00–15** under `docs/owner-pack/` for day-to-day ownership and acceptance
+- Full non-technical owner pack **00–15** under `content/owner-pack/` (Operations Portal) for day-to-day ownership and acceptance
 
 ---
 
@@ -121,7 +131,7 @@ These are **honest v1.0 limits**. They are **not** acceptance defects if they ma
 | Full custom reporting / guaranteed export suite | Exports only **where tools allow**; no BI suite promised |
 | Super admin vs admin provider actions | A few provider verify/commission actions may require a designated **admin** account |
 
-Operational honesty for these items is also stated in [03 User Manual](03-User-Manual.md), [04 Administrator Guide](04-Administrator-Guide.md), [06 Feature Catalogue](06-Feature-Catalogue.md), and [07 Admin Panel Guide](07-Admin-Panel-Guide.md).
+Operational honesty for these items is also stated in [03 User Manual](03-user-manual), [04 Administrator Guide](04-administrator-guide), [06 Feature Catalogue](06-feature-catalogue), and [07 Admin Panel Guide](07-admin-panel-guide).
 
 ---
 
@@ -146,8 +156,8 @@ Do **not** treat this list as a delivery schedule.
 
 To accept Town Ruins **1.0** against delivered product + this pack, use:
 
-- Capability evidence: [06 Feature Catalogue](06-Feature-Catalogue.md)  
-- Formal sign-off: [15 Project Acceptance](15-Project-Acceptance.md)  
-- Support boundaries: [14 Support and Warranty](14-Support-and-Warranty.md)  
+- Capability evidence: [06 Feature Catalogue](06-feature-catalogue)  
+- Formal sign-off: [15 Project Acceptance](15-project-acceptance)  
+- Support boundaries: [14 Support and Warranty](14-support-and-warranty)  
 
 **Product:** [https://app.townruins.com](https://app.townruins.com) · **Support:** [sandbox@townruins.com](mailto:sandbox@townruins.com) · **Developer counter-sign:** Alvin Phiri · **Owner:** Hweva Tech Holdings

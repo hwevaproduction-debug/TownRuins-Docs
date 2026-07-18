@@ -1,3 +1,13 @@
+---
+title: Daily Operations
+description: Recurring owner workflows and checklists for running the Town Ruins platform day to day.
+tags:
+  - owner
+  - owner-pack
+  - daily-operations
+  - hweva
+---
+
 # Daily Operations
 
 | Field | Value |
@@ -7,7 +17,7 @@
 | **Version** | 1.0 |
 | **Product** | [https://app.townruins.com](https://app.townruins.com) |
 | **Support** | [sandbox@townruins.com](mailto:sandbox@townruins.com) |
-| **Related** | [05 Business Processes](05-Business-Processes.md) · [02 Quick Start](02-Quick-Start.md) · [06 Feature Catalogue](06-Feature-Catalogue.md) · [10 Roles and Permissions](10-Roles-and-Permissions.md) |
+| **Related** | [05 Business Processes](05-business-processes) · [02 Quick Start](02-quick-start) · [06 Feature Catalogue](06-feature-catalogue) · [10 Roles and Permissions](10-roles-and-permissions) |
 
 ---
 
@@ -17,8 +27,8 @@ Concrete **checklists** for owner staff who run Town Ruins day to day. Use these
 
 - **Audience:** Admin / super admin operators at Hweva Tech Holdings
 - **Surface:** [https://app.townruins.com](https://app.townruins.com) signed in with **admin** credentials (same app — no separate admin website)
-- **Depth:** What to check and decide — not every click (button-level UI belongs in [07 Admin Panel Guide](07-Admin-Panel-Guide.md) when published)
-- **Process context:** Why each queue exists is in [05 Business Processes](05-Business-Processes.md)
+- **Depth:** What to check and decide — not every click (button-level UI belongs in [07 Admin Panel Guide](07-admin-panel-guide) when published)
+- **Process context:** Why each queue exists is in [05 Business Processes](05-business-processes)
 
 **Rule of thumb:** You own routine verification, moderation, settlement, reports, and disputes. Escalate to [sandbox@townruins.com](mailto:sandbox@townruins.com) when the **product is broken**, not when a business decision is merely hard.
 
@@ -139,7 +149,7 @@ Run once per week (pick a fixed day so it is not skipped).
 | # | Action | Notes |
 | --- | --- | --- |
 | 3.1 | Review support threads from the week (email + any in-product reports) | Tag themes: login, tokens, booking, verification |
-| 3.2 | Update staff FAQ notes for recurring answers | Full FAQ pack lives in [08 FAQ](08-FAQ.md) when published |
+| 3.2 | Update staff FAQ notes for recurring answers | Full FAQ pack lives in [08 FAQ](08-faq) when published |
 | 3.3 | Identify anything that needs **policy** change (legal docs) | Update legal document versions in admin if wording changes |
 | 3.4 | Confirm admin accounts are still person-specific | No shared passwords; audit trail depends on this |
 
@@ -149,7 +159,7 @@ Run once per week (pick a fixed day so it is not skipped).
 | --- | --- | --- |
 | 4.1 | Count bookings still **pending settlement** that should be settled | Catch up on settlement references |
 | 4.2 | Review provider questions about **payouts** | Settlement is owner-marked; set expectations honestly |
-| 4.3 | Note token-related complaints | Welcome **100 TR**, engagement **5 TR**, restore **1 TR × days** — see [05 Business Processes](05-Business-Processes.md) |
+| 4.3 | Note token-related complaints | Welcome **100 TR**, engagement **5 TR**, restore **1 TR × days** — see [05 Business Processes](05-business-processes) |
 | 4.4 | Remember token **purchase** may be demo-mode in v1.0 | Do not promise live card charging for TR packages if not wired |
 
 ### 5. Light commercial scan
@@ -175,7 +185,7 @@ Run once per calendar month (or on a fixed date after month-end).
 | 1.3 | Archive notable dispute/report resolutions for the month | Useful if a pattern or legal question appears later |
 | 1.4 | If a needed export is **missing** from the product | Document the gap; use support under contract for technical extracts — do not invent a feature that is not there |
 
-*v1.0 honesty:* Prefer in-product exports and views. Full “browse all users” admin list may be limited ([06 Feature Catalogue](06-Feature-Catalogue.md)). Use what the dashboard provides; escalate only when business-critical data is inaccessible.
+*v1.0 honesty:* Prefer in-product exports and views. Full “browse all users” admin list may be limited ([06 Feature Catalogue](06-feature-catalogue)). Use what the dashboard provides; escalate only when business-critical data is inaccessible.
 
 ### 2. User growth and platform usage
 
@@ -200,7 +210,7 @@ Run once per calendar month (or on a fixed date after month-end).
 
 | # | Action |
 | --- | --- |
-| 4.1 | Confirm at least one working **admin** account can complete provider verify / commission (super_admin nuance — see [10 Roles](10-Roles-and-Permissions.md)) |
+| 4.1 | Confirm at least one working **admin** account can complete provider verify / commission (super_admin nuance — see [10 Roles](10-roles-and-permissions)) |
 | 4.2 | Review staff coverage for morning queues (holidays, backup operator) |
 | 4.3 | Decide whether any recurring manual work needs a process change (not a code change) |
 | 4.4 | Escalate only **defects and warranty** items to developer support per contract |
@@ -233,7 +243,7 @@ Run once per calendar month (or on a fixed date after month-end).
 | Temporary stay booking | **Real money** | Guest; owner **settles** for provider tracking |
 | TR package purchase | Packages shown in product | May be **demo** in v1.0 — confirm live status before promising |
 
-Full process detail: [05 Business Processes](05-Business-Processes.md). Capability list: [06 Feature Catalogue](06-Feature-Catalogue.md).
+Full process detail: [05 Business Processes](05-business-processes). Capability list: [06 Feature Catalogue](06-feature-catalogue).
 
 ---
 
@@ -241,9 +251,9 @@ Full process detail: [05 Business Processes](05-Business-Processes.md). Capabili
 
 | Need | Document |
 | --- | --- |
-| Why these queues exist | [05 Business Processes](05-Business-Processes.md) |
-| First-time admin login | [02 Quick Start](02-Quick-Start.md) |
-| What each role may do | [10 Roles and Permissions](10-Roles-and-Permissions.md) |
-| Who owns which decisions | [12 Data Ownership](12-Data-Ownership.md) |
-| What shipped / limits | [06 Feature Catalogue](06-Feature-Catalogue.md) |
-| Support boundaries | [14 Support and Warranty](14-Support-and-Warranty.md) |
+| Why these queues exist | [05 Business Processes](05-business-processes) |
+| First-time admin login | [02 Quick Start](02-quick-start) |
+| What each role may do | [10 Roles and Permissions](10-roles-and-permissions) |
+| Who owns which decisions | [12 Data Ownership](12-data-ownership) |
+| What shipped / limits | [06 Feature Catalogue](06-feature-catalogue) |
+| Support boundaries | [14 Support and Warranty](14-support-and-warranty) |

@@ -1,3 +1,16 @@
+---
+title: Owner Pack
+description: Index and reading map for the Town Ruins owner operating pack for Hweva Tech Holdings platform owners.
+tags:
+  - owner
+  - owner-pack
+  - readme
+  - hweva
+aliases:
+  - Owner Pack README
+  - Town Ruins Owner Pack
+---
+
 # Town Ruins Owner Pack
 
 | Field | Value |
@@ -21,7 +34,7 @@ It is **not** a thin client overview for an external customer. You are the owner
 - Own decisions about accounts, listings, bookings, tokens, and moderation
 - Know where support starts and stops (see Support and Warranty)
 
-Technical engineering guides live elsewhere under `docs/` (for example `guides/` and `operations/`). This pack is the **official non-technical operating set**.
+Technical engineering guides live elsewhere in this portal (for example `guides/` and `operations/`). This pack is the **official non-technical operating set**.
 
 ---
 
@@ -29,14 +42,14 @@ Technical engineering guides live elsewhere under `docs/` (for example `guides/`
 
 | If you need to… | Start here |
 | --- | --- |
-| Orient yourself after delivery | [01 Welcome](01-Welcome.md) → [02 Quick Start](02-Quick-Start.md) |
-| Run daily work | [11 Daily Operations](11-Daily-Operations.md) → [05 Business Processes](05-Business-Processes.md) |
-| Use the admin panel | [07 Admin Panel Guide](07-Admin-Panel-Guide.md) → [04 Administrator Guide](04-Administrator-Guide.md) |
-| Support end users | [03 User Manual](03-User-Manual.md) → [08 FAQ](08-FAQ.md) → [09 Troubleshooting](09-Troubleshooting.md) |
-| Understand roles and data | [10 Roles and Permissions](10-Roles-and-Permissions.md) → [12 Data Ownership](12-Data-Ownership.md) |
-| See what shipped / known limits | [06 Feature Catalogue](06-Feature-Catalogue.md) → [13 Release Notes](13-Release-Notes.md) |
-| Support contact and warranty | [14 Support and Warranty](14-Support-and-Warranty.md) |
-| Formal acceptance of version 1.0 | [15 Project Acceptance](15-Project-Acceptance.md) |
+| Orient yourself after delivery | [01 Welcome](01-welcome) → [02 Quick Start](02-quick-start) |
+| Run daily work | [11 Daily Operations](11-daily-operations) → [05 Business Processes](05-business-processes) |
+| Use the admin panel | [07 Admin Panel Guide](07-admin-panel-guide) → [04 Administrator Guide](04-administrator-guide) |
+| Support end users | [03 User Manual](03-user-manual) → [08 FAQ](08-faq) → [09 Troubleshooting](09-troubleshooting) |
+| Understand roles and data | [10 Roles and Permissions](10-roles-and-permissions) → [12 Data Ownership](12-data-ownership) |
+| See what shipped / known limits | [06 Feature Catalogue](06-feature-catalogue) → [13 Release Notes](13-release-notes) |
+| Support contact and warranty | [14 Support and Warranty](14-support-and-warranty) |
+| Formal acceptance of version 1.0 | [15 Project Acceptance](15-project-acceptance) |
 
 **Suggested first pass for a new owner staff member**
 
@@ -51,43 +64,43 @@ Technical engineering guides live elsewhere under `docs/` (for example `guides/`
 
 | # | Document | Path | Status |
 | --- | --- | --- | --- |
-| 00 | This README | [00-README.md](00-README.md) | Complete |
-| 01 | Welcome | [01-Welcome.md](01-Welcome.md) | Complete |
-| 02 | Quick Start | [02-Quick-Start.md](02-Quick-Start.md) | Complete |
-| 03 | User Manual | [03-User-Manual.md](03-User-Manual.md) | Complete |
-| 04 | Administrator Guide | [04-Administrator-Guide.md](04-Administrator-Guide.md) | Complete |
-| 05 | Business Processes | [05-Business-Processes.md](05-Business-Processes.md) | Complete |
-| 06 | Feature Catalogue | [06-Feature-Catalogue.md](06-Feature-Catalogue.md) | Complete |
-| 07 | Admin Panel Guide | [07-Admin-Panel-Guide.md](07-Admin-Panel-Guide.md) | Complete |
-| 08 | FAQ | [08-FAQ.md](08-FAQ.md) | Complete |
-| 09 | Troubleshooting | [09-Troubleshooting.md](09-Troubleshooting.md) | Complete |
-| 10 | Roles and Permissions | [10-Roles-and-Permissions.md](10-Roles-and-Permissions.md) | Complete |
-| 11 | Daily Operations | [11-Daily-Operations.md](11-Daily-Operations.md) | Complete |
-| 12 | Data Ownership | [12-Data-Ownership.md](12-Data-Ownership.md) | Complete |
-| 13 | Release Notes | [13-Release-Notes.md](13-Release-Notes.md) | Complete |
-| 14 | Support and Warranty | [14-Support-and-Warranty.md](14-Support-and-Warranty.md) | Complete |
-| 15 | Project Acceptance | [15-Project-Acceptance.md](15-Project-Acceptance.md) | Complete |
+| 00 | This README | [00-readme](00-readme) | Complete |
+| 01 | Welcome | [01-welcome](01-welcome) | Complete |
+| 02 | Quick Start | [02-quick-start](02-quick-start) | Complete |
+| 03 | User Manual | [03-user-manual](03-user-manual) | Complete |
+| 04 | Administrator Guide | [04-administrator-guide](04-administrator-guide) | Complete |
+| 05 | Business Processes | [05-business-processes](05-business-processes) | Complete |
+| 06 | Feature Catalogue | [06-feature-catalogue](06-feature-catalogue) | Complete |
+| 07 | Admin Panel Guide | [07-admin-panel-guide](07-admin-panel-guide) | Complete |
+| 08 | FAQ | [08-faq](08-faq) | Complete |
+| 09 | Troubleshooting | [09-troubleshooting](09-troubleshooting) | Complete |
+| 10 | Roles and Permissions | [10-roles-and-permissions](10-roles-and-permissions) | Complete |
+| 11 | Daily Operations | [11-daily-operations](11-daily-operations) | Complete |
+| 12 | Data Ownership | [12-data-ownership](12-data-ownership) | Complete |
+| 13 | Release Notes | [13-release-notes](13-release-notes) | Complete |
+| 14 | Support and Warranty | [14-support-and-warranty](14-support-and-warranty) | Complete |
+| 15 | Project Acceptance | [15-project-acceptance](15-project-acceptance) | Complete |
 
 Folder layout (target):
 
 ```text
 owner-pack/
-├── 00-README.md                 ← you are here
-├── 01-Welcome.md
-├── 02-Quick-Start.md
-├── 03-User-Manual.md
-├── 04-Administrator-Guide.md
-├── 05-Business-Processes.md
-├── 06-Feature-Catalogue.md
-├── 07-Admin-Panel-Guide.md
-├── 08-FAQ.md
-├── 09-Troubleshooting.md
-├── 10-Roles-and-Permissions.md
-├── 11-Daily-Operations.md
-├── 12-Data-Ownership.md
-├── 13-Release-Notes.md
-├── 14-Support-and-Warranty.md
-└── 15-Project-Acceptance.md
+├── 00-readme                 ← you are here
+├── 01-welcome
+├── 02-quick-start
+├── 03-user-manual
+├── 04-administrator-guide
+├── 05-business-processes
+├── 06-feature-catalogue
+├── 07-admin-panel-guide
+├── 08-faq
+├── 09-troubleshooting
+├── 10-roles-and-permissions
+├── 11-daily-operations
+├── 12-data-ownership
+├── 13-release-notes
+├── 14-support-and-warranty
+└── 15-project-acceptance
 ```
 
 All documents in this index are **Complete** for version **1.0**. Links above are the canonical paths for navigation.
@@ -176,10 +189,23 @@ Optional fields (use when helpful):
 
 | Location | Role |
 | --- | --- |
-| **`docs/owner-pack/`** (this folder) | Canonical **non-technical** owner operating pack |
-| `docs/guides/` | Technical / engineering-oriented user and admin guides |
-| `docs/operations/` | Deployment, runbooks, environment — for technical operators |
-| `docs/client-handover/` | **Retired** — pointer only; do not use as the live pack |
+| **`content/owner-pack/`** (this folder in the Operations Portal) | Canonical **non-technical** owner operating pack |
+| `content/guides/` | Technical / engineering-oriented user and admin guides |
+| `content/operations/` | Deployment, runbooks, environment — for technical operators |
+| `content/client-handover/` | **Separate non-owner hub** — client/handover readers; not the owner pack. Still live for that audience. |
+
+---
+
+## When you need more
+
+This pack is the owner operating set. When work steps outside day-to-day ownership, use these portal areas:
+
+| Area | Go here | Use when | Honesty |
+| --- | --- | --- | --- |
+| **Operations** | [Operations](../operations) | Deployment, runbooks, rollback, operational procedures | Full ops depth in-portal |
+| **Product** | [Product](../product/) | Feature roadmap and product folder navigation | Some “vision” pages may describe off-product strategy copy — treat as **index**, not sole product truth |
+| **Legal** | [Legal](../legal/) | Where legal materials are indexed | **Index only** in this portal; canonical legal bodies often live in monorepo / live app — not full contracts here |
+| **Workflows** | [Workflows](../workflows/) | Use cases, user journeys, and system interaction flows | In-portal workflows docs |
 
 ---
 
@@ -188,5 +214,5 @@ Optional fields (use when helpful):
 For product and delivery support questions covered by the engagement:
 
 - Email: [sandbox@townruins.com](mailto:sandbox@townruins.com)
-- Warranty and boundaries: [14 Support and Warranty](14-Support-and-Warranty.md)
+- Warranty and boundaries: [14 Support and Warranty](14-support-and-warranty)
 - Contract terms govern response expectations; this pack does not invent SLA numbers.

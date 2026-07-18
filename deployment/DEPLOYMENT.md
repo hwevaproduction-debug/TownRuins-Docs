@@ -32,12 +32,12 @@ Deployment Guide
 Environment Variables
 </a>
 
-<a class="tr-folder-nav-item" href="./PRE_DEPLOYMENT_CHECKLIST">
+<a class="tr-folder-nav-item" href="../operations/PRE_DEPLOYMENT_CHECKLIST">
 <span class="tr-folder-icon">&#128220;</span>
 Pre-Deployment Checklist
 </a>
 
-<a class="tr-folder-nav-item" href="./POST_DEPLOYMENT_CHECKLIST">
+<a class="tr-folder-nav-item" href="../operations/POST_DEPLOYMENT_CHECKLIST">
 <span class="tr-folder-icon">&#128220;</span>
 Post-Deployment Checklist
 </a>
@@ -68,8 +68,8 @@ Post-Deployment Checklist
 <h3>Frequently Accessed Pages</h3>
 <ul>
 <li><a href="./DEPLOYMENT">Deployment Guide</a></li>
-<li><a href="./PRE_DEPLOYMENT_CHECKLIST">Pre-Deployment Checklist</a></li>
-<li><a href="./POST_DEPLOYMENT_CHECKLIST">Post-Deployment Checklist</a></li>
+<li><a href="../operations/PRE_DEPLOYMENT_CHECKLIST">Pre-Deployment Checklist</a></li>
+<li><a href="../operations/POST_DEPLOYMENT_CHECKLIST">Post-Deployment Checklist</a></li>
 <li><a href="./ENVIRONMENT_VARIABLES">Environment Variables</a></li>
 </ul>
 </div>

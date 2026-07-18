@@ -1,3 +1,13 @@
+---
+title: Quick Start
+description: First steps after delivery — login, admin panel orientation, and safe first checks for platform owners.
+tags:
+  - owner
+  - owner-pack
+  - quick-start
+  - hweva
+---
+
 # Quick Start
 
 | Field | Value |
@@ -7,7 +17,7 @@
 | **Version** | 1.0 |
 | **Product** | [https://app.townruins.com](https://app.townruins.com) |
 | **Support** | [sandbox@townruins.com](mailto:sandbox@townruins.com) |
-| **Related** | [01 Welcome](01-Welcome.md) · [07 Admin Panel Guide](07-Admin-Panel-Guide.md) · [11 Daily Operations](11-Daily-Operations.md) |
+| **Related** | [01 Welcome](01-welcome) · [07 Admin Panel Guide](07-admin-panel-guide) · [11 Daily Operations](11-daily-operations) |
 
 ---
 
@@ -158,15 +168,26 @@ If the navigation is clear, click through **one or two** admin sections (for exa
 
 | If you need to… | Open |
 | --- | --- |
-| Understand ownership and contacts again | [01 Welcome](01-Welcome.md) |
-| Run the platform day to day | [11 Daily Operations](11-Daily-Operations.md) |
-| Learn admin screens in depth | [07 Admin Panel Guide](07-Admin-Panel-Guide.md) · [04 Administrator Guide](04-Administrator-Guide.md) |
-| Support end users | [03 User Manual](03-User-Manual.md) · [08 FAQ](08-FAQ.md) · [09 Troubleshooting](09-Troubleshooting.md) |
-| Support contact and warranty | [14 Support and Warranty](14-Support-and-Warranty.md) |
-| Formal acceptance of version 1.0 | [15 Project Acceptance](15-Project-Acceptance.md) |
-| Full map of the pack | [00 README](00-README.md) |
+| Understand ownership and contacts again | [01 Welcome](01-welcome) |
+| Run the platform day to day | [11 Daily Operations](11-daily-operations) |
+| Learn admin screens in depth | [07 Admin Panel Guide](07-admin-panel-guide) · [04 Administrator Guide](04-administrator-guide) |
+| Support end users | [03 User Manual](03-user-manual) · [08 FAQ](08-faq) · [09 Troubleshooting](09-troubleshooting) |
+| Support contact and warranty | [14 Support and Warranty](14-support-and-warranty) |
+| Formal acceptance of version 1.0 | [15 Project Acceptance](15-project-acceptance) |
+| Full map of the pack | [00 README](00-readme) |
 
 **Suggested next hour:** skim Daily Operations, then the Admin Panel Guide, with FAQ and Support/Warranty bookmarked.
+
+### When you need more
+
+Outside the pack, the Owner portal bridges are (Product/Legal are indexes — see [00 README](00-readme) honesty notes):
+
+| Area | Go here |
+| --- | --- |
+| **Operations** | [Operations](../operations) |
+| **Product** | [Product](../product/) (index; Feature Catalogue for shipped truth) |
+| **Legal** | [Legal](../legal/) (portal index only) |
+| **Workflows** | [Workflows](../workflows/) |
 
 ---
 

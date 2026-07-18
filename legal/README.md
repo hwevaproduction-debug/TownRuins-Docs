@@ -13,6 +13,8 @@ aliases:
 
 # Legal Documentation Index
 
+> **Portal honesty:** This is an **index and source map**, not a full mirror of legal contract text. Canonical DOCX/sources live outside published portal pages (monorepo). Prefer in-app legal views at the live product when available.
+
 This folder is the documentation index for legal materials that are referenced by the frontend legal views and the repository-level docs.
 
 ## Canonical legal sources
