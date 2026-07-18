@@ -26,7 +26,7 @@ aliases:
 
 <div class="tr-folder-nav">
 
-<a class="tr-folder-nav-item" href="./README">
+<a class="tr-folder-nav-item" href="/legal/readme">
 <span class="tr-folder-icon">&#128196;</span>
 Legal Index
 </a>
@@ -50,6 +50,6 @@ Legal Index
 <div class="tr-dashboard-section">
 <h3>Frequently Accessed Pages</h3>
 <ul>
-<li><a href="./README">Legal Documentation Index</a></li>
+<li><a href="/legal/readme">Legal Documentation Index</a></li>
 </ul>
 </div>

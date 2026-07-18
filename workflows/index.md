@@ -21,7 +21,7 @@ aliases:
 
 <div class="tr-folder-nav">
 
-<a class="tr-folder-nav-item" href="./USE_CASES_AND_WORKFLOWS">
+<a class="tr-folder-nav-item" href="./use_cases_and_workflows">
 <span class="tr-folder-icon">&#128260;</span>
 Use Cases & Workflows
 </a>
@@ -45,6 +45,6 @@ Use Cases & Workflows
 <div class="tr-dashboard-section">
 <h3>Frequently Accessed Pages</h3>
 <ul>
-<li><a href="./USE_CASES_AND_WORKFLOWS">Use Cases & Workflows</a></li>
+<li><a href="./use_cases_and_workflows">Use Cases & Workflows</a></li>
 </ul>
 </div>

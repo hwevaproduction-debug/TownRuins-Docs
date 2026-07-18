@@ -22,22 +22,22 @@ aliases:
 
 <div class="tr-folder-nav">
 
-<a class="tr-folder-nav-item" href="./REPOSITORY_GUIDE">
+<a class="tr-folder-nav-item" href="./repository_guide">
 <span class="tr-folder-icon">&#128218;</span>
 Repository Guide
 </a>
 
-<a class="tr-folder-nav-item" href="./architecture">
+<a class="tr-folder-nav-item" href="./architecture/">
 <span class="tr-folder-icon">&#127963;</span>
 Architecture
 </a>
 
-<a class="tr-folder-nav-item" href="./api">
+<a class="tr-folder-nav-item" href="./api/">
 <span class="tr-folder-icon">&#128279;</span>
 API
 </a>
 
-<a class="tr-folder-nav-item" href="./database">
+<a class="tr-folder-nav-item" href="./database/">
 <span class="tr-folder-icon">&#128451;</span>
 Database
 </a>
@@ -62,9 +62,9 @@ Database
 <div class="tr-dashboard-section">
 <h3>Frequently Accessed Pages</h3>
 <ul>
-<li><a href="./REPOSITORY_GUIDE">Repository Guide</a></li>
-<li><a href="./architecture">Architecture Reference</a></li>
-<li><a href="./api">API Reference</a></li>
-<li><a href="./database">Database Reference</a></li>
+<li><a href="./repository_guide">Repository Guide</a></li>
+<li><a href="./architecture/">Architecture Reference</a></li>
+<li><a href="./api/">API Reference</a></li>
+<li><a href="./database/">Database Reference</a></li>
 </ul>
 </div>

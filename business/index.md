@@ -21,12 +21,12 @@ aliases:
 
 <div class="tr-folder-nav">
 
-<a class="tr-folder-nav-item" href="./TOKEN_ECONOMY">
+<a class="tr-folder-nav-item" href="./token_economy">
 <span class="tr-folder-icon">&#129689;</span>
 Token Economy
 </a>
 
-<a class="tr-folder-nav-item" href="./TEMPORARY_STAY">
+<a class="tr-folder-nav-item" href="./temporary_stay">
 <span class="tr-folder-icon">&#127976;</span>
 Temporary Stay
 </a>
@@ -50,7 +50,7 @@ Temporary Stay
 <div class="tr-dashboard-section">
 <h3>Frequently Accessed Pages</h3>
 <ul>
-<li><a href="./TOKEN_ECONOMY">Token Economy</a></li>
-<li><a href="./TEMPORARY_STAY">Temporary Stay</a></li>
+<li><a href="./token_economy">Token Economy</a></li>
+<li><a href="./temporary_stay">Temporary Stay</a></li>
 </ul>
 </div>

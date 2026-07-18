@@ -21,7 +21,7 @@ aliases:
 
 <div class="tr-folder-nav">
 
-<a class="tr-folder-nav-item" href="./MODERATOR_GUIDE">
+<a class="tr-folder-nav-item" href="./moderator_guide">
 <span class="tr-folder-icon">&#128272;</span>
 Moderator Guide
 </a>
@@ -45,6 +45,6 @@ Moderator Guide
 <div class="tr-dashboard-section">
 <h3>Frequently Accessed Pages</h3>
 <ul>
-<li><a href="./MODERATOR_GUIDE">Moderator Guide</a></li>
+<li><a href="./moderator_guide">Moderator Guide</a></li>
 </ul>
 </div>

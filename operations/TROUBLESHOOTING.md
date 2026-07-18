@@ -21,13 +21,13 @@ aliases:
 | Deploy or health check failed | [POST_DEPLOYMENT_CHECKLIST](POST_DEPLOYMENT_CHECKLIST) → [DEPLOYMENT](DEPLOYMENT) § Health Verification |
 | Need fast critical-path check | [SMOKE_TEST_PLAN](SMOKE_TEST_PLAN) |
 | Day-to-day ops / monitoring scope | [OPERATIONS_RUNBOOK](OPERATIONS_RUNBOOK) |
-| Admin / payment / outage playbooks | [Admin Guide — Incident Response](../guides/ADMIN_GUIDE#incident-response) |
+| Admin / payment / outage playbooks | [Admin Guide — Incident Response](../guides/admin_guide#incident-response) |
 | Rollback decision | [ROLLBACK](ROLLBACK) |
 | Env / config suspicion | [ENVIRONMENT_VARIABLES](ENVIRONMENT_VARIABLES) |
 
 ## Platform outage (from Admin Guide)
 
-Summarized from [guides/ADMIN_GUIDE](../guides/ADMIN_GUIDE#incident-response) — use the full section for detail:
+Summarized from [guides/ADMIN_GUIDE](../guides/admin_guide#incident-response) — use the full section for detail:
 
 1. Check backend health: `GET /api/v1` should return `{ status: "ok" }`.
 2. Check database connectivity (Prisma connection errors in logs).
@@ -37,7 +37,7 @@ Summarized from [guides/ADMIN_GUIDE](../guides/ADMIN_GUIDE#incident-response) �
 
 ## Payment / reconciliation issues
 
-See [guides/ADMIN_GUIDE](../guides/ADMIN_GUIDE) payment and incident sections, and confirm provider configuration via [ENVIRONMENT_VARIABLES](ENVIRONMENT_VARIABLES).
+See [guides/ADMIN_GUIDE](../guides/admin_guide) payment and incident sections, and confirm provider configuration via [ENVIRONMENT_VARIABLES](ENVIRONMENT_VARIABLES).
 
 ## Deploy-time failures
 
@@ -64,4 +64,4 @@ A full standalone multi-hundred-line symptoms matrix from an external monorepo p
 
 - [DOCUMENTATION_INDEX](DOCUMENTATION_INDEX)
 - [LAUNCH_DAY_RUNBOOK](LAUNCH_DAY_RUNBOOK)
-- [ADMIN_RUNBOOK](ADMIN_RUNBOOK)
+- [ADMIN_RUNBOOK](admin_runbook)

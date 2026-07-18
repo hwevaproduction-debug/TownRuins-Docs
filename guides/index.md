@@ -21,17 +21,17 @@ aliases:
 
 <div class="tr-folder-nav">
 
-<a class="tr-folder-nav-item" href="./ADMIN_GUIDE">
+<a class="tr-folder-nav-item" href="/guides/admin_guide">
 <span class="tr-folder-icon">&#128274;</span>
 Admin Guide
 </a>
 
-<a class="tr-folder-nav-item" href="./END_USER_GUIDE">
+<a class="tr-folder-nav-item" href="./end_user_guide">
 <span class="tr-folder-icon">&#128100;</span>
 End User Guide
 </a>
 
-<a class="tr-folder-nav-item" href="./LANDLORD_GUIDE">
+<a class="tr-folder-nav-item" href="./landlord_guide">
 <span class="tr-folder-icon">&#127970;</span>
 Landlord Guide
 </a>
@@ -55,8 +55,8 @@ Landlord Guide
 <div class="tr-dashboard-section">
 <h3>Frequently Accessed Pages</h3>
 <ul>
-<li><a href="./ADMIN_GUIDE">Admin Guide</a></li>
-<li><a href="./END_USER_GUIDE">End User Guide</a></li>
-<li><a href="./LANDLORD_GUIDE">Landlord Guide</a></li>
+<li><a href="/guides/admin_guide">Admin Guide</a></li>
+<li><a href="./end_user_guide">End User Guide</a></li>
+<li><a href="./landlord_guide">Landlord Guide</a></li>
 </ul>
 </div>

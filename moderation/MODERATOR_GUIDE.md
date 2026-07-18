@@ -22,7 +22,7 @@ Branch context: awsfullmig
 
 ## Related Documents
 
-- [docs/admin/ADMIN_GUIDE.md](../admin/ADMIN_GUIDE.md)
+- [docs/admin/ADMIN_GUIDE.md](../admin/admin_guide)
 - [docs/guides/LANDLORD_GUIDE.md](../guides/LANDLORD_GUIDE.md)
 - [docs/business/TOKEN_ECONOMY.md](../business/TOKEN_ECONOMY.md)
 

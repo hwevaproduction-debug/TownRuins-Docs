@@ -16,6 +16,123 @@ All notable changes to this project will be documented in this file.
 
 ## 2607
 
+### 181900
+
+| Field      | Value                                   |
+| ---------- | --------------------------------------- |
+| Author     | Tea                                     |
+| Identifier | 181900                                  |
+| Date       | 1807                                    |
+| Year       | 26                                      |
+| Type       | Fix                                     |
+| Status     | ✅ Verified                              |
+| Validation | Passed (build + hub-slugs + path tests) |
+| Scope      | Hub link collisions (admin/guides/legal)|
+
+#### Summary
+
+Fixed folder hub navigation links that Quartz resolved to bare wrong slugs when basenames collide (`ADMIN_GUIDE` under admin and guides; `README` under legal vs root). Hub cards now target folder-qualified routes. Normalized remaining UPPER_SNAKE hub hrefs to lowercase stems for consistency.
+
+#### Files Changed
+
+| Action   | File                              |
+| -------- | --------------------------------- |
+| Modified | content/admin/index.md            |
+| Modified | content/guides/index.md           |
+| Modified | content/legal/index.md            |
+| Modified | content/moderation/index.md       |
+| Modified | content/business/index.md         |
+| Modified | content/workflows/index.md        |
+| Modified | content/reference/index.md        |
+| Modified | content/operations/TROUBLESHOOTING.md |
+| Modified | content/moderation/MODERATOR_GUIDE.md |
+| Modified | content/CHANGELOG.md              |
+
+#### Detailed Changes
+
+| Category   | Description |
+| ---------- | ----------- |
+| Fix        | Admin/guides Admin Guide hubs use absolute folder-qualified paths so CrawlLinks cannot collapse to bare `admin_guide`. |
+| Fix        | Legal hub points at `/legal/readme` instead of bare `readme` (root Documentation Hub collision). |
+| Hygiene    | Lowercased unique-basename hub hrefs (moderation, business, workflows, reference, end user, landlord). |
+| Validation | Accept via built `data-slug` inspection / `check:hub-slugs`, not Windows HTTP HEAD alone. |
+
+#### Git
+
+| Field          | Value                |
+| -------------- | -------------------- |
+| Branch         | main                 |
+| Commit(s)      | pending              |
+| Generated From | content hub rewrites |
+
+---
+
+### 181530
+
+| Field      | Value                                   |
+| ---------- | --------------------------------------- |
+| Author     | Tea                                     |
+| Identifier | 181530                                  |
+| Date       | 1807                                    |
+| Year       | 26                                      |
+| Type       | Fix                                     |
+| Status     | ✅ Verified                              |
+| Validation | Passed                                  |
+| Scope      | Quartz Docs Navigation & Routing        |
+
+#### Summary
+
+Fixed broken Quartz-generated routes for the portal’s documentation landing pages and legacy document links. The site now serves the expected documentation pages instead of returning 404s for routes such as API, architecture, database, deployment, operations, and archive documentation links.
+
+#### Files Changed
+
+| Action   | File                                         |
+| -------- | -------------------------------------------- |
+| Modified | content/api/API.md                           |
+| Modified | content/architecture/ARCHITECTURE.md         |
+| Modified | content/database/DATABASE.md                 |
+| Modified | content/deployment/DEPLOYMENT.md             |
+| Modified | content/operations/index.md                  |
+| Modified | content/operations/OPERATIONS_RUNBOOK.md     |
+| Modified | content/testing/index.md                     |
+| Modified | content/testing/SMOKE_TEST_PLAN.md           |
+| Modified | content/reference/index.md                   |
+| Modified | content/archive/DOCUMENTATION_INDEX.md       |
+| Modified | content/deployment/PRE_DEPLOYMENT_CHECKLIST.md |
+| Modified | content/deployment/POST_DEPLOYMENT_CHECKLIST.md |
+| Modified | content/developer.md                         |
+| Modified | content/product/index.md                    |
+| Modified | content/CHANGELOG.md                        |
+
+#### Detailed Changes
+
+| Category      | Description |
+| ------------- | ----------- |
+| Fix           | Updated internal links to use the lowercase, generated Quartz routes that are actually emitted in the public build. |
+| Fix           | Corrected legacy uppercase and mixed-case references for operations, deployment, and archive documentation pages to their published slugs. |
+| Validation    | Rebuilt the Quartz site and verified the affected routes return HTTP 200 via the local server. |
+
+#### Repository Validation
+
+| Check                  | Result |
+| ---------------------- | ------ |
+| Required files exist   | ✅      |
+| References updated     | ✅      |
+| Obsolete files removed | ✅      |
+| Duplicate files        | None   |
+| TODO/FIXME search      | None   |
+| Validation rerun       | Passed |
+
+#### Git
+
+| Field          | Value                                 |
+| -------------- | ------------------------------------- |
+| Branch         | main                                  |
+| Commit(s)      | pending                               |
+| Generated From | npx quartz build + local HTTP checks  |
+
+---
+
 ### 1715
 
 | Field      | Value                                   |
