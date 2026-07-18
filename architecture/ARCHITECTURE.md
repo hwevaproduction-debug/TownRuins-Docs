@@ -21,7 +21,7 @@ aliases:
 
 <div class="tr-folder-nav">
 
-<a class="tr-folder-nav-item" href="./ARCHITECTURE">
+<a class="tr-folder-nav-item" href="./">
 <span class="tr-folder-icon">&#127963;</span>
 System Architecture
 </a>
@@ -51,7 +51,7 @@ System Architecture
 <div class="tr-dashboard-section">
 <h3>Frequently Accessed Pages</h3>
 <ul>
-<li><a href="./ARCHITECTURE">System Architecture</a></li>
+<li><a href="./">System Architecture</a></li>
 </ul>
 </div>
 

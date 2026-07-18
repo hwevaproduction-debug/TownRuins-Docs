@@ -13,6 +13,6 @@ aliases:
 
 The canonical post-deployment verification checklist lives under Operations:
 
-**[Operations — Post-Deployment Checklist](../operations/POST_DEPLOYMENT_CHECKLIST)**
+**[Operations — Post-Deployment Checklist](../operations/post_deployment_checklist/)**
 
 Run that checklist after every deployment.

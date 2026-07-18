@@ -22,32 +22,32 @@ aliases:
 
 <div class="tr-folder-nav">
 
-<a class="tr-folder-nav-item" href="./OPERATIONS_RUNBOOK">
+<a class="tr-folder-nav-item" href="./operations_runbook/">
 <span class="tr-folder-icon">&#128220;</span>
 Operations Runbook
 </a>
 
-<a class="tr-folder-nav-item" href="./LAUNCH_DAY_RUNBOOK">
+<a class="tr-folder-nav-item" href="./launch_day_runbook/">
 <span class="tr-folder-icon">&#127881;</span>
 Launch Day Runbook
 </a>
 
-<a class="tr-folder-nav-item" href="./TROUBLESHOOTING">
+<a class="tr-folder-nav-item" href="./troubleshooting/">
 <span class="tr-folder-icon">&#128295;</span>
 Troubleshooting
 </a>
 
-<a class="tr-folder-nav-item" href="./ROLLBACK">
+<a class="tr-folder-nav-item" href="./rollback/">
 <span class="tr-folder-icon">&#8634;</span>
 Rollback
 </a>
 
-<a class="tr-folder-nav-item" href="./SMOKE_TEST_PLAN">
+<a class="tr-folder-nav-item" href="./smoke_test_plan/">
 <span class="tr-folder-icon">&#128270;</span>
 Smoke Test Plan
 </a>
 
-<a class="tr-folder-nav-item" href="./ADMIN_RUNBOOK">
+<a class="tr-folder-nav-item" href="./admin_runbook/">
 <span class="tr-folder-icon">&#128274;</span>
 Admin Runbook
 </a>
@@ -71,10 +71,10 @@ Admin Runbook
 <div class="tr-dashboard-section">
 <h3>Frequently Accessed Pages</h3>
 <ul>
-<li><a href="./OPERATIONS_RUNBOOK">Operations Runbook</a></li>
-<li><a href="./LAUNCH_DAY_RUNBOOK">Launch Day Runbook</a></li>
-<li><a href="./TROUBLESHOOTING">Troubleshooting</a></li>
-<li><a href="./ROLLBACK">Rollback</a></li>
-<li><a href="./SMOKE_TEST_PLAN">Smoke Test Plan</a></li>
+<li><a href="./operations_runbook/">Operations Runbook</a></li>
+<li><a href="./launch_day_runbook/">Launch Day Runbook</a></li>
+<li><a href="./troubleshooting/">Troubleshooting</a></li>
+<li><a href="./rollback/">Rollback</a></li>
+<li><a href="./smoke_test_plan/">Smoke Test Plan</a></li>
 </ul>
 </div>

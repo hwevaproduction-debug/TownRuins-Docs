@@ -88,15 +88,15 @@ aliases:
 <span class="tr-related-icon">&#128640;</span>
 <span>Deployment</span>
 </a>
-<a class="tr-related-card" href="./operations/troubleshooting">
+<a class="tr-related-card" href="./operations/troubleshooting/">
 <span class="tr-related-icon">&#128295;</span>
 <span>Troubleshooting</span>
 </a>
-<a class="tr-related-card" href="./operations/smoke_test_plan">
+<a class="tr-related-card" href="./operations/smoke_test_plan/">
 <span class="tr-related-icon">&#128270;</span>
 <span>Smoke Test Plan</span>
 </a>
-<a class="tr-related-card" href="./business/token_economy">
+<a class="tr-related-card" href="./business/token_economy/">
 <span class="tr-related-icon">&#129689;</span>
 <span>Token Economy</span>
 </a>
@@ -106,7 +106,7 @@ aliases:
 <div class="tr-dashboard-section">
 <h3>Business Rules</h3>
 <ul>
-<li>All non-booking premium features consume TR Tokens as defined in <a href="./business/token_economy">Token Economy</a></li>
+<li>All non-booking premium features consume TR Tokens as defined in <a href="./business/token_economy/">Token Economy</a></li>
 <li>Temporary stay bookings remain on real payment provider flows</li>
 <li>Listing upload authorization is landlord-only regardless of token payer role</li>
 </ul>

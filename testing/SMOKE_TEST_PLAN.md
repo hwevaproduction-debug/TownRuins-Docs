@@ -13,6 +13,6 @@ aliases:
 
 The canonical launch-day smoke test plan lives under Operations:
 
-**[Operations — Smoke Test Plan](../operations/SMOKE_TEST_PLAN)**
+**[Operations — Smoke Test Plan](../operations/smoke_test_plan/)**
 
 Use that page for the 15–30 minute critical-workflow verification guide.

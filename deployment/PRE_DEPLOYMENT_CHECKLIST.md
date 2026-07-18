@@ -13,6 +13,6 @@ aliases:
 
 The canonical production-readiness checklist lives under Operations:
 
-**[Operations — Pre-Deployment Checklist](../operations/PRE_DEPLOYMENT_CHECKLIST)**
+**[Operations — Pre-Deployment Checklist](../operations/pre_deployment_checklist/)**
 
 Work through that checklist before every release.

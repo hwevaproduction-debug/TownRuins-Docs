@@ -11,4 +11,4 @@ tags:
 
 The master operations documentation index lives under Operations:
 
-**[Operations — Documentation Index](../operations/DOCUMENTATION_INDEX)**
+**[Operations — Documentation Index](../operations/documentation_index/)**

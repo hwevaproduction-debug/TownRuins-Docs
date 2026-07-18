@@ -22,19 +22,19 @@ Branch context: awsfullmig
 ## Related Documents
 
 - [Deployment](../deployment/)
-- [Environment Variables](ENVIRONMENT_VARIABLES)
-- [Smoke Test Plan](SMOKE_TEST_PLAN)
+- [Environment Variables](environment_variables/)
+- [Smoke Test Plan](smoke_test_plan/)
 
 ## Prerequisites
 
 - Review [Deployment](../deployment/)
-- Review [Smoke Test Plan](SMOKE_TEST_PLAN)
+- Review [Smoke Test Plan](smoke_test_plan/)
 
 ## Derived Documents
 
-- [Launch Day Runbook](LAUNCH_DAY_RUNBOOK)
-- [Rollback](ROLLBACK)
-- [Troubleshooting](TROUBLESHOOTING)
+- [Launch Day Runbook](launch_day_runbook/)
+- [Rollback](rollback/)
+- [Troubleshooting](troubleshooting/)
 
 ## Scope
 

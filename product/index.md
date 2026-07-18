@@ -35,7 +35,7 @@ Vision (check honesty note)
 Feature Roadmap
 </a>
 
-<a class="tr-folder-nav-item" href="../operations/next-steps">
+<a class="tr-folder-nav-item" href="../operations/next-steps/">
 <span class="tr-folder-icon">&#10148;</span>
 Next Steps
 </a>
@@ -61,6 +61,6 @@ Next Steps
 <ul>
 <li><a href="../strategy/vision">Vision</a></li>
 <li><a href="../strategy/feature-roadmap">Feature Roadmap</a></li>
-<li><a href="../operations/next-steps">Next Steps</a></li>
+<li><a href="../operations/next-steps/">Next Steps</a></li>
 </ul>
 </div>

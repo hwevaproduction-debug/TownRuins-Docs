@@ -21,7 +21,7 @@ aliases:
 
 <div class="tr-folder-nav">
 
-<a class="tr-folder-nav-item" href="./API">
+<a class="tr-folder-nav-item" href="./">
 <span class="tr-folder-icon">&#128279;</span>
 API Documentation
 </a>
@@ -51,7 +51,7 @@ API Documentation
 <div class="tr-dashboard-section">
 <h3>Frequently Accessed Pages</h3>
 <ul>
-<li><a href="./API">API Documentation</a></li>
+<li><a href="./">API Documentation</a></li>
 </ul>
 </div>
 
