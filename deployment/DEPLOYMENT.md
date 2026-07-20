@@ -12,115 +12,124 @@ aliases:
   - Infrastructure
 ---
 
-<div class="tr-folder-hero">
-
-# Deployment
-
-<p>End-to-end deployment procedures, infrastructure setup, environment configuration, and post-deployment verification for the Town Ruins platform.</p>
-
-</div>
-
-<div class="tr-folder-nav">
-
-<a class="tr-folder-nav-item" href="./">
-<span class="tr-folder-icon">&#128640;</span>
-Deployment Guide
-</a>
-
-<a class="tr-folder-nav-item" href="./environment_variables/">
-<span class="tr-folder-icon">&#128295;</span>
-Environment Variables
-</a>
-
-<a class="tr-folder-nav-item" href="../operations/pre_deployment_checklist/">
-<span class="tr-folder-icon">&#128220;</span>
-Pre-Deployment Checklist
-</a>
-
-<a class="tr-folder-nav-item" href="../operations/post_deployment_checklist/">
-<span class="tr-folder-icon">&#128220;</span>
-Post-Deployment Checklist
-</a>
-
-</div>
-
-<div class="tr-dashboard-section" style="margin-top: 1.5rem;">
-<h3>Purpose</h3>
-<p>This folder contains all deployment-related documentation for the Town Ruins platform. It covers the full deployment lifecycle from environment setup through post-deployment verification.</p>
-</div>
-
-<div class="tr-dashboard-section">
-<h3>Overview</h3>
-<p>Deployments are managed through a structured workflow that includes pre-deployment checks, environment variable configuration, Prisma migrations, DNS updates, and health verification. Use the guides and checklists in this folder to ensure safe and repeatable releases.</p>
-</div>
-
-<div class="tr-dashboard-section">
-<h3>Related Areas</h3>
-<ul>
-<li><a href="../operations/">Operations</a></li>
-<li><a href="../testing/">Testing</a></li>
-<li><a href="../architecture/">Architecture</a></li>
-<li><a href="../reference/">Reference</a></li>
-</ul>
-</div>
-
-<div class="tr-dashboard-section">
-<h3>Frequently Accessed Pages</h3>
-<ul>
-<li><a href="./">Deployment Guide</a></li>
-<li><a href="../operations/pre_deployment_checklist/">Pre-Deployment Checklist</a></li>
-<li><a href="../operations/post_deployment_checklist/">Post-Deployment Checklist</a></li>
-<li><a href="./environment_variables/">Environment Variables</a></li>
-</ul>
-</div>
-
 # Deployment
 
 ## Last Verified
 
-Last Verified: 2026-07-15
+Last Verified: 2026-07-20
 
 Branch context: awsfullmig
 
+## Purpose
+
+Use this guide to perform a safe deployment of the Town Ruins frontend and backend. Follow each step in order. Do not skip the verification steps, because a frontend build, a backend deploy, and the URL/configuration handoff all need to be validated together.
+
 ## Related Documents
 
-- [docs/deployment/ENVIRONMENT_VARIABLES.md](ENVIRONMENT_VARIABLES.md)
-- [docs/operations/OPERATIONS_RUNBOOK.md](../operations/OPERATIONS_RUNBOOK.md)
-- [README.md](../../README.md)
+- [Environment Variables](ENVIRONMENT_VARIABLES.md)
+- [Operations Runbook](../operations/OPERATIONS_RUNBOOK.md)
+- [Pre-Deployment Checklist](../operations/PRE_DEPLOYMENT_CHECKLIST.md)
+- [Post-Deployment Checklist](../operations/POST_DEPLOYMENT_CHECKLIST.md)
 
 ## Prerequisites
 
-- Review the root deployment flow in [README.md](../../README.md)
-- Review [amplify.yml](../../amplify.yml)
-- Review [real-app-backend-main/render.yaml](../../real-app-backend-main/render.yaml)
+Before beginning, confirm the following:
 
-## Derived Documents
+1. The target branch and commit hash are known.
+2. The frontend and backend repositories are accessible.
+3. The production environment variables are reviewed and approved.
+4. The deployment window is open and a rollback plan is ready.
 
-- [docs/operations/OPERATIONS_RUNBOOK.md](../operations/OPERATIONS_RUNBOOK.md)
-- [docs/reference/REPOSITORY_GUIDE.md](../reference/REPOSITORY_GUIDE.md)
+## Deployment Sequence
 
-## Deployment Flow
+### 1. Prepare the release
 
-1. Deploy the frontend app from [real-app-frontend-main](../../real-app-frontend-main) through the Amplify build flow defined in [amplify.yml](../../amplify.yml).
-2. Deploy or configure the backend from [real-app-backend-main](../../real-app-backend-main) using the Render configuration in [real-app-backend-main/render.yaml](../../real-app-backend-main/render.yaml).
-3. Synchronize the frontend and backend URL values in the environment configuration so the frontend can reach the API and the backend can return to the frontend.
+1. Review the pre-deployment checklist and resolve every blocking item.
+2. Confirm the frontend build configuration in [amplify.yml](../../amplify.yml).
+3. Confirm the backend service configuration in [real-app-backend-main/render.yaml](../../real-app-backend-main/render.yaml).
+4. Verify that the correct environment variables are already configured for the target environment.
+5. Record the release version and the person approving the deployment.
 
-```mermaid
-sequenceDiagram
-    participant Dev as Developer
-    participant GitHub as GitHub Repo
-    participant Amplify as AWS Amplify
-    participant Render as Render Backend
-    Dev->>GitHub: Push changes
-    GitHub->>Amplify: Trigger frontend build
-    Amplify->>Amplify: Build frontend assets
-    Amplify-->>Dev: Frontend deployment ready
-    Dev->>Render: Configure backend URL values
-    Render-->>Dev: Backend ready for API traffic
+### 2. Deploy the backend first
+
+1. Open the backend deployment service for the target environment.
+2. Confirm the service is healthy before deploying.
+3. Trigger the backend deployment from the approved commit or branch.
+4. Wait for the deployment to finish and confirm the service reaches a healthy state.
+5. Verify the backend health endpoint responds successfully.
+
+Example verification commands:
+
+```bash
+curl -sS https://<backend-url>/api/health
+curl -sS https://<backend-url>/api/v1
 ```
+
+Expected result:
+- The endpoint returns a successful response.
+- No startup, migration, or dependency errors are visible in the logs.
+
+### 3. Deploy the frontend second
+
+1. Open the Amplify console or deployment pipeline for the frontend.
+2. Confirm the branch or commit selected for deployment is correct.
+3. Start the frontend deployment.
+4. Wait for the build to complete and verify the deploy status changes to successful.
+5. Confirm the deployed frontend URL is reachable.
+
+Example verification commands:
+
+```bash
+curl -I https://<frontend-url>
+```
+
+### 4. Validate the frontend-to-backend connection
+
+1. Open the deployed frontend in a browser.
+2. Attempt a sign-in flow.
+3. Confirm the frontend can reach the backend without CORS or URL mismatch issues.
+4. Verify that any API URL values in the frontend configuration match the deployed backend URL.
+
+If the frontend cannot reach the backend, fix the URL or environment configuration before continuing.
+
+### 5. Apply or verify DNS and domain routing
+
+1. Confirm the production domain points to the correct frontend host.
+2. Confirm the backend is reachable through the intended public URL, if applicable.
+3. Review any custom domain, CNAME, or alias records before declaring deployment complete.
+4. If DNS changes were required, wait for the changes to propagate before final verification.
+
+### 6. Run post-deployment verification
+
+1. Verify the application loads without rendering errors.
+2. Run a login test.
+3. Run a listing creation or booking test.
+4. Check file uploads and any notification path.
+5. Review admin and moderation actions.
+6. Mark the deployment successful only after all critical checks pass.
+
+## Rollback Procedure
+
+If the deployment introduces an outage or severe regression:
+
+1. Stop further deployments.
+2. Revert to the previous known-good release.
+3. Redeploy the backend first, then the frontend.
+4. Re-run health and smoke checks after rollback.
+5. Document the failure and the recovery action in the operations record.
+
+## Verification Checklist
+
+Use this checklist after each deployment:
+
+- [ ] Backend health endpoint responds successfully.
+- [ ] Frontend returns a successful HTTP response.
+- [ ] Login and core flows work.
+- [ ] Uploads and notifications function.
+- [ ] Admin moderation actions remain available.
+- [ ] DNS and domain routing are correct.
 
 ## Notes
 
-- The root deployment guidance in [README.md](../../README.md) remains the entry point for the current deployment sequence.
-- Any deployment detail not visible in the repository is marked as **Planned**.
+This guide intentionally focuses on the operational deployment sequence. If a value or host is not visible in the repository, treat it as an environment-specific detail that must be verified in the live platform console before the release is marked complete.
 

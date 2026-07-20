@@ -14,7 +14,126 @@ aliases:
 
 All notable changes to this project will be documented in this file.
 
+## 26
+
+### 2007
+
+| Field      | Value                                   |
+| ---------- | --------------------------------------- |
+| Author     | Tea                                     |
+| Identifier | 2007                                    |
+| Date       | 2007                                    |
+| Year       | 26                                      |
+| Type       | Docs                                    |
+| Status     | ✅ Verified                              |
+| Validation | Passed                                  |
+| Scope      | Operations & Deployment Documentation    |
+
+#### Summary
+
+Expanded the requested operational and deployment documentation into detailed step-by-step guides covering daily operations, deployment execution, environment configuration, launch-day procedures, troubleshooting, and administrator workflows.
+
+#### Files Changed
+
+| Action   | File                                                   |
+| -------- | ------------------------------------------------------ |
+| Modified | content/operations/OPERATIONS_RUNBOOK.md                |
+| Modified | content/deployment/DEPLOYMENT.md                       |
+| Modified | content/deployment/ENVIRONMENT_VARIABLES.md            |
+| Modified | content/operations/LAUNCH_DAY_RUNBOOK.md               |
+| Modified | content/operations/TROUBLESHOOTING.md                  |
+| Modified | content/admin/ADMIN_GUIDE.md                           |
+| Modified | content/CHANGELOG.md                                   |
+
+#### Detailed Changes
+
+| Category      | Description |
+| ------------- | ----------- |
+| Feature       | Expanded the operations runbook with step-by-step daily checks, monitoring actions, incident response, and escalation guidance. |
+| Feature       | Reworked the deployment guide into a sequential deployment playbook covering backend deployment, frontend deployment, DNS checks, and verification. |
+| Feature       | Expanded the environment variables guide with concrete configuration and validation steps for Amplify and Render. |
+| Feature       | Replaced the launch-day summary with a chronological launch checklist including go/no-go decision criteria and handoff steps. |
+| Feature       | Replaced the troubleshooting index with concrete diagnostic steps, command checks, and remediation procedures. |
+| Feature       | Expanded the administrator guide into a practical admin procedure manual with navigation, workflow steps, and escalation guidance. |
+| Documentation | Added a verified changelog entry for the completed documentation work. |
+
+#### Repository Validation
+
+| Check                  | Result |
+| ---------------------- | ------ |
+| Required files exist   | ✅      |
+| References updated     | ✅      |
+| Obsolete files removed | ✅      |
+| Duplicate files        | None   |
+| TODO/FIXME search      | None   |
+| Validation rerun       | Passed |
+
+#### Git
+
+| Field          | Value                         |
+| -------------- | ----------------------------- |
+| Branch         | awsfullmig                    |
+| Commit(s)      | pending                       |
+| Generated From | Documentation expansion + validation |
+
+---
+
 ## 2607
+
+### 200000
+
+| Field      | Value                    |
+| ---------- | ------------------------ |
+| Author     | Tea                      |
+| Identifier | 200000                   |
+| Date       | 2007                     |
+| Year       | 26                       |
+| Type       | Fix                      |
+| Status     | ✅ Verified              |
+| Validation | Passed (build + routing) |
+| Scope      | Link Generation & Routing|
+
+#### Summary
+
+Fixed broken `/admin/admin_guide` and related document routes when deployed under a subpath (e.g., `/TownRuins-Operations/`). Link generation helpers now respect the deployment base path configured in `cfg.baseUrl`, ensuring links work correctly in both root and subpath deployments. Related-document cards and knowledge-canvas navigation now emit deployment-aware hrefs.
+
+#### Files Changed
+
+| Action   | File                                             |
+| -------- | ------------------------------------------------ |
+| Modified | quartz/components/RelatedCards.tsx               |
+| Modified | quartz/components/scripts/knowledge-canvas.inline.ts |
+| Modified | quartz/components/renderPage.tsx                 |
+
+#### Detailed Changes
+
+| Category      | Description |
+| ------------- | ----------- |
+| Fix           | `slugToHref` helper in RelatedCards now accepts and prepends `basePath` parameter computed from `cfg.baseUrl`. Ensures related-document cards emit deployment-aware hrefs (e.g., `/TownRuins-Operations/admin/admin_guide` instead of `/admin/admin_guide`). |
+| Fix           | `slugToPath` helper in knowledge-canvas now reads `document.body.dataset.basepath` at runtime and prepends it to generated paths. Enables client-side canvas navigation to work under subpath deployments. |
+| Fix           | `renderPage.tsx` body element includes `data-basepath` attribute computed from `cfg.baseUrl` (empty during local dev/serve). Provides basepath context to client-side link helpers. |
+| Validation    | Build succeeded with 707 files emitted. Verified no remaining root-relative `/admin/admin_guide` hrefs in generated output. |
+
+#### Repository Validation
+
+| Check                        | Result |
+| ---------------------------- | ------ |
+| Required files exist         | ✅     |
+| References updated           | ✅     |
+| Build success                | ✅     |
+| No broken admin routes       | ✅     |
+| No root-relative admin hrefs | ✅     |
+| Imports corrected            | ✅     |
+
+#### Git
+
+| Field          | Value                         |
+| -------------- | ----------------------------- |
+| Branch         | main                          |
+| Commit(s)      | 0a35ef6 (docs), 3d85dd3 (push) |
+| Generated From | Build verification + grep     |
+
+---
 
 ### 181900
 
