@@ -2,6 +2,62 @@
 
 ## 2207
 
+### 1049
+
+| Field      | Value                                   |
+| ---------- | --------------------------------------- |
+| Author     | Tea                                     |
+| Identifier | 1049                                    |
+| Date       | 2207                                    |
+| Year       | 26                                      |
+| Type       | Fix                                     |
+| Status     | ✅ Verified                              |
+| Validation | Passed                                  |
+| Scope      | Admin Listings                          |
+
+#### Summary
+Added an admin dashboard purge action that deletes seeded landlord listings from Prisma, exposed the backend route and RTK mutation, and covered the flow with controller tests.
+
+#### Files Changed
+
+| Action   | File                                                      |
+| -------- | --------------------------------------------------------- |
+| Modified | real-app-backend-main/controllers/adminController.js      |
+| Modified | real-app-backend-main/routes/adminRoutes.js               |
+| Modified | real-app-backend-main/tests/adminController.test.js       |
+| Modified | real-app-frontend-main/src/redux/api/adminApiSlice.ts     |
+| Modified | real-app-frontend-main/src/views/Dashboard/Admin.tsx      |
+| Modified | docs/CHANGELOG.md                                         |
+
+#### Detailed Changes
+
+| Category      | Description |
+| ------------- | ----------- |
+| Fix           | Added `POST /api/v1/admin/listings/purge-seeded` to delete seeded landlord listings using the demo landlord email set from the seed scripts. |
+| Fix           | Exposed a new RTK mutation and admin dashboard confirmation flow to trigger the purge from the expired listings screen. |
+| Refactor      | Kept the existing revive flow intact while reusing the same admin tab for destructive cleanup actions. |
+| Documentation | Recorded the verified purge work in the repository changelog. |
+| Validation    | Ran `node --test tests/adminController.test.js` and `npm run build` in the frontend successfully. |
+
+#### Repository Validation
+
+| Check                  | Result |
+| ---------------------- | ------ |
+| Required files exist   | ✅      |
+| References updated     | ✅      |
+| Obsolete files removed | N/A    |
+| Duplicate files        | None   |
+| TODO/FIXME search      | 11 found |
+| Validation rerun       | Passed |
+
+#### Git
+
+| Field          | Value              |
+| -------------- | ------------------ |
+| Branch         | awsfullmig         |
+| Commit(s)      | 534dfa6            |
+| Generated From | git diff + git log |
+
 All notable changes to this project will be documented in this file.
 
 ## 26
