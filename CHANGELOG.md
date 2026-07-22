@@ -2,6 +2,121 @@
 
 ## 2207
 
+### 1242
+
+| Field      | Value                                   |
+| ---------- | --------------------------------------- |
+| Author     | Tea                                     |
+| Identifier | 1242                                    |
+| Date       | 2207                                    |
+| Year       | 26                                      |
+| Type       | Fix                                     |
+| Status     | ✅ Verified                              |
+| Validation | Passed                                  |
+| Scope      | Admin & Landlord Listings               |
+
+#### Summary
+Fixed admin booking and seeded-purge runtime failures, expanded admin listing management across statuses and derived categories, enabled safe listing removal by listing or owner, and exposed deletion for every landlord-owned listing status.
+
+#### Files Changed
+
+| Action   | File                                                               |
+| -------- | ------------------------------------------------------------------ |
+| Created  | AGENTS.md                                                          |
+| Modified | .gitignore                                                         |
+| Modified | real-app-backend-main/controllers/adminController.js              |
+| Modified | real-app-backend-main/controllers/authController.js               |
+| Modified | real-app-backend-main/routes/adminRoutes.js                       |
+| Modified | real-app-backend-main/tests/adminController.test.js               |
+| Modified | real-app-backend-main/tests/adminRoutes.auth.test.js              |
+| Modified | real-app-backend-main/tests/authController.test.js                |
+| Modified | real-app-frontend-main/src/redux/api/adminApiSlice.ts             |
+| Modified | real-app-frontend-main/src/views/Dashboard/Admin.tsx              |
+| Modified | real-app-frontend-main/src/views/Dashboard/Landlord.tsx           |
+| Modified | docs/CHANGELOG.md                                                  |
+
+#### Detailed Changes
+
+| Category      | Description |
+| ------------- | ----------- |
+| Feature       | Added paginated all-status admin listing search with status, Rent/Student, location, lifecycle date, upload date, and landlord email/username filters. |
+| Feature       | Added confirmed admin deletion for one listing or every listing owned by a resolved user ID while retaining the user account. |
+| Feature       | Made hard deletion available for landlord-owned active, pending, inactive, and expired listings with confirmation and toast feedback. |
+| Fix           | Aligned booking tags and settlement transforms with the mounted booking controller response shapes. |
+| Fix           | Counted seeded purge relations by listing ID and removed restrictive listing-restoration references during account deletion with an explicit transaction timeout. |
+| Documentation | Replaced the generic workflow prompt with compact verified repository guidance and unignored `AGENTS.md`. |
+| Validation    | Passed 151 backend unit tests, strict TypeScript checking, the frontend production build, diff checks, and repository reference/file searches. |
+
+#### Repository Validation
+
+| Check                  | Result |
+| ---------------------- | ------ |
+| Required files exist   | ✅      |
+| References updated     | ✅      |
+| Obsolete files removed | N/A    |
+| Duplicate files        | None   |
+| TODO/FIXME search      | 1 source TODO found |
+| Validation rerun       | Passed |
+
+#### Git
+
+| Field          | Value              |
+| -------------- | ------------------ |
+| Branch         | awsfullmig         |
+| Commit(s)      | f468e30            |
+| Generated From | git diff + git log |
+
+### 1059
+
+| Field      | Value                                   |
+| ---------- | --------------------------------------- |
+| Author     | Tea                                     |
+| Identifier | 1059                                    |
+| Date       | 2207                                    |
+| Year       | 26                                      |
+| Type       | Fix                                     |
+| Status     | ✅ Verified                              |
+| Validation | Passed                                  |
+| Scope      | Uploads & Profile                       |
+
+#### Summary
+Allowed browser avatar uploads to succeed from local and preview origins by extending the S3 CORS origin list, and reduced the profile dialog focus warning by blurring the active trigger before opening modal dialogs.
+
+#### Files Changed
+
+| Action   | File                                                     |
+| -------- | -------------------------------------------------------- |
+| Modified | real-app-backend-main/scripts/configure-s3-cors.js      |
+| Modified | real-app-frontend-main/src/views/Profile/index.tsx      |
+| Modified | docs/CHANGELOG.md                                        |
+
+#### Detailed Changes
+
+| Category      | Description |
+| ------------- | ----------- |
+| Fix           | Added localhost and 127.0.0.1 origins to the bucket CORS helper so browser PUT uploads can complete during local development and preview testing. |
+| Fix           | Blurred the active element before opening profile dialogs to avoid leaving the trigger button focused under an `aria-hidden` ancestor. |
+| Validation    | Verified the backend script with `node --check` and confirmed the frontend production build completes successfully. |
+
+#### Repository Validation
+
+| Check                  | Result |
+| ---------------------- | ------ |
+| Required files exist   | ✅      |
+| References updated     | ✅      |
+| Obsolete files removed | N/A    |
+| Duplicate files        | None   |
+| TODO/FIXME search      | 1 found |
+| Validation rerun       | Passed |
+
+#### Git
+
+| Field          | Value              |
+| -------------- | ------------------ |
+| Branch         | awsfullmig         |
+| Commit(s)      | 5f37e7f            |
+| Generated From | git diff + git log |
+
 ### 1049
 
 | Field      | Value                                   |
